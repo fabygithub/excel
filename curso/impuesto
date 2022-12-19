@@ -2,3 +2,14 @@
 la uf cambia todos los dias
 servicio de impuestos internos
 tabla impuesto 2 categoria diciembre 22
+
+1 tramo no paga impuesto
+2 tramo paga impuesto se le descuenta ese valor
+mas ganas = mayor impuesto
+
+llevar a una planilla esto
+
+0,4 representa el 40%
+
+
+
