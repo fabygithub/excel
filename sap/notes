@@ -8,5 +8,32 @@ grabar script
 cuadro de texto
 /NVK11
 
-clave de condicion zed1
+clave de condicion 
+zed1
+
+org.Ventas/Can.distr/Material
+
+copiar desde excel a sap
+solo los valores
+
+O.V 
+1050
+
+canal 
+60
+
+material
+5041010251
+
+descuento
+10
+
+fecha inicial
+01-04-2020
+
+fecha final
+01-04-2020
+
+3
+
 
