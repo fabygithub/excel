@@ -16,10 +16,15 @@ en mas formatos
 jj
 
 
-referecia absoluta
-$s
+referecia absoluta por filas
+c$4
+ejemplo
+=C$5 *B6
+
 =c3+i3
 =c4+i4
+
+referencia abosula total
 
 =C5/$C$2
 
