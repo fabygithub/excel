@@ -34,6 +34,23 @@
  kind
  hidden
  
+ #al filtrar va a aparecer en filas filtradas
+ filas filtradas
+ 
+ #ver todas las columnas 
+ se expandio data
+ 
+ #si cambio un nombre
+ columnas de nombre cambiado
+
+ # desde ahi eliminar 3 columnas 
+ item
+ kind
+ hidden
+ 
+ i va aparecer columnas quitadas
+ 
+
  Mostrar Consultas
  Unificar_Productos
  
@@ -48,6 +65,7 @@
  
  #eliminar los pasos que no se va a ocupar
  
-
+¿Cómo activar origen de datos en Excel?
+ 
  
  
