@@ -1,0 +1,6 @@
+average if excel
+=PROMEDIO.SI(B2:B4;"Liquor";F2:F4)
+
+"Liquor"
+2012
+average if pivot table
