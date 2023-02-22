@@ -1,0 +1,10 @@
+https://www.youtube.com/watch?v=1B1FoJg-T54&ab_channel=adan087tutoriales
+
+convertir fecha a mes
+
+14-05-2021  =TEXTO(A3;"MMMM")
+
+convertir fecha a año
+=texto(a3;"yyy")
+
+
