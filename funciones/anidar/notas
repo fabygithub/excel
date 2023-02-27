@@ -1,1 +1,29 @@
 funciones anidadas
+
+ejemplo excel
+=SI(A2>89,"A",SI(A2>79,"B",SI(A2>69,"C",SI(A2>59,"D","F"))))
+
+=SI(A2>89;"A")
+
+=SI(A2>89;"A";SI(A2>75;"B"))
+
+=SI(A2>89;"A";SI(A2>75;"B";SI(A2>75;"C"))
+
+=SI(A2>89;"A";SI(A2>75;"B";SI(A2>75;"C")))
+
+cuando la funcion funciona se marca en azul
+
+el ultimo parentesis no puede terminar en rojo
+
+=SI(PROMEDIO(A2:A4)>50;SUMA(A2:A4);0)
+
+
+
+
+
+
+
+
+
+
+
