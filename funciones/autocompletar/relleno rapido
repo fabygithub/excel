@@ -1,0 +1,5 @@
+¿Cómo se rellena automáticamente varias celdas contiguas en Excel?
+
+Vaya a Datos > Relleno rápido o presione CTRL+E. Excel detectará el patrón que facilitó en C2 
+y rellenará las celdas de debajo.
+
