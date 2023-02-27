@@ -1,0 +1,30 @@
+codigo
+123
+
+nombre
+ximena
+
+=BUSCARV(A2;A2:B2;2;0)
+
+buscar por el rut
+=BUSCARV(B2;B2:C6;2)
+
+coincidiencia exacta
+
+=BUSCARV(B2;B2:C4;2;FALSO)
+
+
+
+BUSQUEDA con 2 columnas auxiliares
+=BUSCARV(B2;B2:D3;2)
+
+
+BUSCAR con el nombre con rut
+=BUSCARV(D2;A2:B3;2;FALSO)
+
+
+
+
+
+
+
