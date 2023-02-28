@@ -1,5 +1,7 @@
 https://www.youtube.com/watch?v=_g5roKHj95o&ab_channel=KenjiExplains
 
+
+
 control + t
 control + shift + abajo
 
@@ -8,7 +10,10 @@ control + minus o (es la tecla con el signo +)
 we're gonna paste this as a value
 
 2
+=espacios()
+=redondear()
 
+=REDONDEAR([@Quantity];0)
 
 
 
