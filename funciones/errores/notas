@@ -15,4 +15,5 @@ Problema: El valor de búsqueda no está en la primera columna del argumento mat
 
 =INDICE($A$2:A3;COINCIDIR(B4;B2:B3;0))
 
+=INDICE($A$2:A4;COINCIDIR(B5;$B$2:B4;0))
 
