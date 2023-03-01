@@ -1,0 +1,17 @@
+https://support.microsoft.com/es-es/office/corregir-el-error-n-a-en-la-funci%C3%B3n-buscarv-e037d763-ffc3-4fae-a909-89c482d389b2
+Corregir el error #N/A en la función BUSCARV
+
+=INDICE(C2:C3;COINCIDIR(B3;B2:B10;0))
+=INDICE(C2:C3;COINCIDIR(B3;B2:B3;0))
+
+=INDICE(C2:C3;COINCIDIR(B3;B2:B3;0))
+=INDICE(B2:B3;COINCIDIR(C3;C2:C3;0))
+=INDICE(B2:B3;COINCIDIR(B4;C2:C3;0))
+
+
+Problema: El valor de búsqueda no está en la primera columna del argumento matriz_buscar_en
+
+=INDICE(A2:A3;COINCIDIR(B4;B2:B3;0))
+
+
+
