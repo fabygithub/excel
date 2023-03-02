@@ -1,3 +1,23 @@
 desde la 1056
 cambiar la lista de los solicitantes
- 
+excel validacion de datos con 2 libros diferentes
+Lista con Validación de datos actualizable desde otro libro de Excel
+
+no se pueden usar referencias a libros para criterios de validacion de datos
+https://es.extendoffice.com/documents/excel/2442-excel-drop-down-list-from-another-workbook.htm
+
+crear un nombre en cada libro
+libro 1 = fuente
+libro 2 = fuente2
+nombre2 = fuente
+
+=Libro4.xlsm!fuente
+
+validar datos
+crear lista con (nombre 2)
+
+=fuente2
+
+
+
+
