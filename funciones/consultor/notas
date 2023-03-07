@@ -16,6 +16,12 @@ asi podemos elegir un mesa especifico
 
 =BUSCARV($H$38;$B$39:E40;COINCIDIR(H39;B38:E38;0))
 
+es un buscar con multiples criterios
+
+buscarv con if na
+si.nd
+
+sirve para agregar una respuesta en caso de que el buscarv  encontrara n/a
 
 
 
