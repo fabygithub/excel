@@ -7,6 +7,16 @@ FALSE
 
 =BUSCARV($H$29&"*";$B$30:E31;2;FALSO)
 
+buscar por nombre y mes por ejemplo
+
+nombre  enero febrero marzo 
+juan     5000  1000   3000
+
+asi podemos elegir un mesa especifico
+
+=BUSCARV($H$38;$B$39:E40;COINCIDIR(H39;B38:E38;0))
+
+
 
 
 
