@@ -29,6 +29,52 @@ SQL Server en el entorno local
 Selecciona tu descarga de SQL Server 2022.
 
 Power View y OLAP en Excel
+https://www.excelfreeblog.com/limpiar-datos-con-power-query/
+
+2 click en la barra de inicio
+Automáticamente, aparece el Editor de consultas o la interfaz propia de Power Query 
+con la tabla cargada y con ciertas modificaciones hechas.
+
+nombre de instancia
+MSSQLSERVER
+
+administradore de sql
+DESKTOP-704IVQL\USUARIO
+
+caracteristicas
+sql engine
+
+version
+16.0.1000.6, RTM
+
+ir al editor de consultas de power query
+
+reducir filas 
+quitar filas superiores
+
+cuantas filas quiere eliminar 
+la 1 fila de los encabezados
+
+ir a la pestaña transformar
+en el grupo tabla
+
+modificar el tipo de la columna ingresos
+para que se guarde colocar cerrar y guardar
+
+ingresos
+importar
+crear la conexion
+tabla dinamica desde un origen externo
+
+
+
+
+
+
+
+
+
+
 
 
 
