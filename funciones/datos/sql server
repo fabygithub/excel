@@ -19,4 +19,17 @@ Download SSMS
 Free Download for SQL Server Management Studio (SSMS) 19.0.1
 instalar
 
+sql server create database
+
+Use SQL Server Management Studio
+To create a database
+In Object Explorer, connect to an instance of the SQL Server Database Engine and then expand that instance.
+
+1 Right-click Databases, and then select New Database.
+
+2 In New Database, enter a database name.
+
+3 To create the database by accepting all default values, select OK; otherwise, continue with the following optional steps.
+
+4 To change the owner name, select (...) to select another owner.
 
