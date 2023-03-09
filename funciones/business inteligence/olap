@@ -33,6 +33,14 @@ servicio
 sql server browser = start
 
 se usa el navegador como un servidor
+analysis services cannot connect to local machine
+How to connect to local SSAS Installation
+Troubleshooting Common SSAS Connectivity Issues
+Troubleshooting Common SQL Server Analysis Services Connectivity Issues
+
+https://www.mssqltips.com/sqlservertip/3697/troubleshooting-common-sql-server-analysis-services-connectivity-issues/
+sql server browser can't start
+
 
 
 
