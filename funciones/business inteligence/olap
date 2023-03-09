@@ -8,8 +8,35 @@ con la tabla cargada y con ciertas modificaciones hechas.
 https://support.microsoft.com/es-es/office/power-view-y-olap-en-excel-ea5ff7a5-ea5f-48d4-aeb0-98c89ab738ac
 https://manuals.gfi.com/es/mar12admin/content/administrator/topics/installation/sql/accessingnewsqlserverinstance.htm
 https://misovirtual.virtual.uniandes.edu.co/codelabs/etl-tutorial-OLAP/index.html?index=..%2F..ETL#1
-
+Connect to SQL Server Analysis Services - Microsoft Learn
 
 datos
 obtener datos externos
 desde analysis services
+
+connect
+analisis services
+
+server type analises services
+
+server name [local]
+analysis services localhost
+Can't connect to "localhost" with SQL Analysis Services
+cannot connect to local analysis services
+
+Can’t Connect to Analysis Services – Invalid Connection Information
+
+server properties
+analysis services ensure the server is running
+
+servicio
+sql server browser = start
+
+se usa el navegador como un servidor
+
+
+
+
+
+
+
