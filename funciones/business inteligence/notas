@@ -66,4 +66,70 @@ importar
 crear la conexion
 tabla dinamica desde un origen externo
 
+activar power pivot
+Iniciar el complemento Power Pivot para Excel
+CÓMO INSTALAR EL COMPLEMENTO POWER PIVOT EN EXCEL
+
+¿Cómo se ve la versión de Excel?
+
+Historial de actualizaciones de Aplicaciones de Microsoft 365 ...
+version 2302
+
+Si no encuentra el complemento que desea activar en el cuadro Complementos disponibles, 
+es posible que deba instalarlo.
+
+¿cómo instalar un Complemento o «addins» en Excel?
+
+en un archivo con extensión *.xla o *.xlam), por lo general los complementos 
+son creados por una necesidad que no existe por defecto en excel
+
+https://support.microsoft.com/es-es/office/agregar-o-quitar-complementos-en-excel-0af570c4-5cf3-4fa9-9b88-403625a0b460
+Microsoft bloqueará los add-ins XLL de Excel por seguridad
+
+hay un problema con la ruta
+C:\Program Files\Microsoft Office\root\Office16\Library
+
+
+https://powerbi.microsoft.com/es-es/desktop/
+
+administrar
+complementos excel
+complementos com
+
+crear una conexion 
+agregar estos datos al modelo de datos
+
+el nombre de la tabla debe ser el correcto
+ingresos se cargaron 2 filas
+
+cuando presiono la consulta en power query
+se debiera marcar la tabla
+
+solo conexion 
+solo se conecto a la tabla
+pero no hizo nada
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
