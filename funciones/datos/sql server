@@ -33,3 +33,4 @@ In Object Explorer, connect to an instance of the SQL Server Database Engine and
 
 4 To change the owner name, select (...) to select another owner.
 
+Import data from Excel to SQL Server or Azure SQL Database
