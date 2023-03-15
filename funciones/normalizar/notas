@@ -7,6 +7,21 @@ en el (numero de contrato)
 
 el pedido se refiere al pedido sap
 
+X    Obligatorio. Es el valor que desea normalizar.
+Media    Obligatorio. Es la media aritmética de la distribución.
+Desv_estándar    Obligatorio. Es la desviación estándar de la distribución.
+
+Si desv_estándar ≤ 0, NORMALIZACION devuelve el valor de error #¡NUM!.
+
+Ejemplo
+40
+42
+1,5
+
+=normalizar(a2;a3;a4)
+
+
+
 
 
 
