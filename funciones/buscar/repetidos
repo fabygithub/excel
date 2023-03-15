@@ -15,6 +15,17 @@ obras normalizado
 prooverdor - es el contratista
 984
 hay unos campos que no tememos por ejemplos el rut
+se podria cambiar el nombre de las columnas
+
+obras              administrativo
+numero contrato -  (n contrato)
+año             -  (año)
+nombre contrato -  nombre del servicio
+proovedor       -  contratista
+pep             -  pep
+solicitante     -  nombre empleado
+monto contrato  -  importe
+
 
 
 
