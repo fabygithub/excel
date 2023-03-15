@@ -12,6 +12,10 @@ contratos vigentes - desde el 2013 hasta el 2022
 contratos viegentes - pendiente de pago - se busca mediante el numero de contrato - es como el identificador
 
 obras normalizado
+prooverdor - es el contratista
+984
+hay unos campos que no tememos por ejemplos el rut
+
 
 
 
@@ -23,7 +27,10 @@ solicitud diseño - proovedor
 solicitud diseño - pep
 solicitud diseño - N OC - N Contrato - o puede ser el pedido sap
 solicitud diseño - total - =SI(K6="CLP";L6;L6*DATOS!$C$7) (si es uf se multiplica por el valor uf si no se mantiene)
-fecha solicitud contrato - es el comienzo del contrato - despues pasa a la fecha inicio de contrato de obra
+fecha solicitud contrato obra - sap solicita contrato - despues pasa a la fecha inicio de contrato de obra 
+fecha solicitud contrato diseño - sap solicita contrato - despues para a la fecha de inicio de contrato de diseño
+proovedor - es el contratista
+
 
 
 
@@ -31,7 +38,6 @@ buscar el significado de las columnas
 maximizar y minimizar columna en excel
 siempre dos columnas se pueden relacionar
 puedo buscar desde otra hoja
-
 busqueda shortcut
 
 Usar un lector de pantalla para buscar y reemplazar datos en Excel
