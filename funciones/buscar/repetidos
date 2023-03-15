@@ -11,14 +11,20 @@ contrato - mes de termino = =MES([@[fecha_termino_estimado_contrato]])
 contratos vigentes - desde el 2013 hasta el 2022
 contratos viegentes - pendiente de pago - se busca mediante el numero de contrato - es como el identificador
 
+obras normalizado
 
-administrativo
+
+
+
+administrativo - sap
 
 solicitud diseño - solicitante
 solicitud diseño - proovedor
 solicitud diseño - pep
 solicitud diseño - N OC - N Contrato - o puede ser el pedido sap
 solicitud diseño - total - =SI(K6="CLP";L6;L6*DATOS!$C$7) (si es uf se multiplica por el valor uf si no se mantiene)
+fecha solicitud contrato - es el comienzo del contrato - despues pasa a la fecha inicio de contrato de obra
+
 
 
 buscar el significado de las columnas
