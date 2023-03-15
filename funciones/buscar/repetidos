@@ -2,6 +2,12 @@ diseño normalizado
 pep - codigo pep
 Nom.list - nombre consultor
 MBO 4.2a - numero contrato
+contrato - pedido - pedido sap
+contrato - nombre consultor
+contrato - monto final contrato - (monto de contrato + modificacion contrato + multas)
+contrato - dias de aprobacion estudio hasta liquidacion final - liquidicacion final (-) dias de aprobacion de estudio
+contrato - fecha termino contrato = si la hes esta pagada al 100% - sera la fecha ultima hes
+contrato - mes de termino = =MES([@[fecha_termino_estimado_contrato]])
 
 
 administrativo
@@ -10,6 +16,7 @@ solicitud diseño - solicitante
 solicitud diseño - proovedor
 solicitud diseño - pep
 solicitud diseño - N OC - N Contrato
+solicitud diseño - total - =SI(K6="CLP";L6;L6*DATOS!$C$7) (si es uf se multiplica por el valor uf si no se mantiene)
 
 
 buscar el significado de las columnas
