@@ -19,6 +19,22 @@ formula desbordada
 BUSCARX
 
 
+76619195-9
+=BUSCARX(A5;Solicitudes_Diseño!H:H;Solicitudes_Diseño!I:I)
+
+BUSCARX Devolver Múltiples Columnas - Automate Excel
+https://www.automateexcel.com/es/formulas/buscarx-devolver-multiples-columnas/
+
+devuelve columnas consevutivas
+shitf y selecciona las columnas 
+para buscar varias columnas
+
+=BUSCARX(A5;Solicitudes_Diseño!H:H;Solicitudes_Diseño!I:J)
+
+
+
+
+
 
 
 
