@@ -1,0 +1,29 @@
+BUSCARV Devolver Múltiples Columnas
+{=BUSCARV(F3;B3:D7;{3,2})}
+
+76.956.190-0
+=BUSCARV(A3;Solicitudes_Diseño!H2:K19;2)
+
+formula desbordada
+
+=BUSCARV(A3;Solicitudes_Diseño!H2:K19;{2,3})
+
+=BUSCARV(A3;Solicitudes_Diseño!H2:K19;{2,3,4})
+
+=BUSCARV(A3;Solicitudes_Diseño!H2:L27;{2,3,4};FALSO)
+
+76.956.190-0  lramirez
+76.956.190-0  cgutierrez
+
+
+BUSCARX
+
+
+
+
+
+
+
+
+
+
