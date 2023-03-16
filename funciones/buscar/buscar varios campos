@@ -30,6 +30,10 @@ shitf y selecciona las columnas
 para buscar varias columnas
 
 =BUSCARX(A5;Solicitudes_Diseño!H:H;Solicitudes_Diseño!I:J)
+=BUSCARX(A5;Solicitudes_Diseño!H:H;Solicitudes_Diseño!I:M)
+
+
+
 
 
 
