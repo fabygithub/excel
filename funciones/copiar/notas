@@ -1,0 +1,27 @@
+copiar y descomponer
+entender todo el funcionamiento
+
+en la tabla tabla dinamica si les doy ticket aparece en la parte de las filas
+
+cuando se ponen los valores en la tabla dinamica
+en columnas queda como valores
+
+numero de contrato = cantidad de contrato
+formtato general total = 43
+
+total pagado a ultima hes = monto pagado a ultima hes
+hace ref por el nombre de la columna
+
+se excluye del filtro
+1 = 100%
+en blanco
+
+porcentaje pendiente de pago
+=+IMPORTARDATOSDINAMICOS("Monto pendiente de pago";$A$3)/IMPORTARDATOSDINAMICOS("Monto Final de contratos";$A$3)
+
+pendiente de pago es una fila adicional que nos permite calcular mediante  una division
+esta columna es aparte de la tabla dinamica
+
+
+
+
