@@ -55,6 +55,11 @@ numero contrato    nombre del contrato
 
 =BUSCARX(B1184;[Administrativo.xlsm]Solicitudes_Obras!$F:$F;[Administrativo.xlsm]Solicitudes_Obras!$H:$H)
 
+https://support.microsoft.com/en-us/office/enter-data-in-multiple-worksheets-at-the-same-time-6223d385-4c75-4dff-9881-67d17972a6c9#:~:text=Click%20the%20Insert%20Worksheet%20tab%20at%20the%20bottom%20of%20the%20screen.&text=as%20you%20want-,Press%20and%20hold%20the%20CTRL%20key%2C%20and%20then%20click%20Sheet1,finish%20selecting%20all%20your%20worksheets.
+
+seleccionar la celda en las 2 hojas
+
+con ctrl se pueden seleccionar varias hojas al mismo tiempo
 
 
 
