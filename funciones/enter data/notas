@@ -50,6 +50,10 @@ numero contrato    nombre del contrato
 =FILTRAR([Administrativo.xlsm]Solicitudes_Obras!$F$2;{1})
 =FILTRAR([Administrativo.xlsm]Solicitudes_Obras!$F2;{1})
 
+// no es necesario sacarle los signos de $
+=BUSCARX(B1183;[Administrativo.xlsm]Solicitudes_Obras!$F:$F;[Administrativo.xlsm]Solicitudes_Obras!$G:$G)
+
+=BUSCARX(B1184;[Administrativo.xlsm]Solicitudes_Obras!$F:$F;[Administrativo.xlsm]Solicitudes_Obras!$H:$H)
 
 
 
