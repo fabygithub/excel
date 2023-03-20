@@ -17,4 +17,47 @@ https://support.microsoft.com/es-es/office/activar-o-desactivar-la-finalizaci%C3
 
 opciones - avanzadas - opciones de edicion
 
+hay que tener cuidado con las referencias circulares
+=BUSCARX(A1158;A:A;B:B)
+
+=BUSCARX(F3;C3:C7;FILTRAR(B3:D7;{1,0,1}))
+
+=FILTRAR(A1146:C1147;{1,1,1})
+=FILTRAR(A1146:C1147;{1,0,1})
+
+=FILTRAR(A1:B4;{1,1})
+=FILTRAR(A:B;{1,1})
+
+=FILTRAR(A:B;{1,1})
+=BUSCARX(A2;A:A;FILTRAR(A:B;{1,1}))
+
+cuando la celda esta en verde no hay qye hacer click
+
+para que no haya referencia circular 
+hay que sacar desde otro libro
+
+=BUSCARX(A1161;[Administrativo.xlsm]Solicitudes_Obras!$F:$F;[Administrativo.xlsm]Solicitudes_Obras!$G:$G)
+=BUSCARX(A1162;[Administrativo.xlsm]Solicitudes_Obras!$F:$F;[Administrativo.xlsm]Solicitudes_Obras!$G:$L)
+
+ver las coincidencias de las columnas
+
+numero contrato    nombre del sercicio   
+numero contrato    nombre del contrato
+
+=FILTRAR([Administrativo.xlsm]Solicitudes_Obras!$F$2;{1})
+=FILTRAR([Administrativo.xlsm]Solicitudes_Obras!$F$3;{1})
+
+=FILTRAR([Administrativo.xlsm]Solicitudes_Obras!$F$2;{1})
+=FILTRAR([Administrativo.xlsm]Solicitudes_Obras!$F2;{1})
+
+
+
+
+
+
+
+
+
+
+
 
