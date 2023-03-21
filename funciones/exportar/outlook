@@ -47,6 +47,186 @@ How to export one or multiple emails to excel file in Outlook?
 converting from CSV to Excel worksheet - YouTube
 
 
+visual basic senderemailaddress not working
+revisar que este bien escrito
+
+Sheets("Hoja1").Cells(Fila, 1).Value = OItem.SenderEmailAddress
+SenderEmailAddress in vba code giving path in excel
+
+https://stackoverflow.com/questions/35643709/senderemailaddress-in-vba-code-giving-path-in-excel
+
+Sheets("Hoja1").Cells(Fila, 1).Value = OItem.SenderName
+vba sending email address
+
+https://stackoverflow.com/questions/35643709/senderemailaddress-in-vba-code-giving-path-in-excel
+vba outlook inbox
+
+vba outlook export to excel
+How to export Outlook Emails and Show in Excel Worksheet using VBA
+
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+Option Explicit
+
+Sub ExtraerCorreosDeOutlook()
+  Dim OutlookApp As Object
+  Dim ONameSpace As Object
+  Dim MyFolder As Object
+  Dim OItem As Object
+  Dim Fila As Integer
+  
+  Set OutlookApp = CreateObject("Outlook.Application")
+  Set ONameSpace = OutlookApp.GetNamespace("MAPI")
+  Set MyFolder = ONameSpace.GetDefaultFolder(olFolderInbox)
+  ' Set MyFolder = ONameSpace.Folder("correo@gmail.com").Folders("Carpeta")
+  
+   'desde la fila 2 de la hoja
+   Fila = 2
+
+
+
+For Each OItem In MyFolder.Items
+
+    'columnas
+    Sheets("Hoja1").Cells(Fila, 1).Value = OItem.SenderEmailAddress
+   'Sheets("Hoja1").Cells(Fila, 2).Value = OItem.to
+    Sheets("Hoja1").Cells(Fila, 3).Value = OItem.Subject
+    Sheets("Hoja1").Cells(Fila, 4).Value = OItem.ReceivedTime
+   'Sheets("Hoja1").Cells(Fila, 5).Value = OItem.Body
+  
+    
+    'siguiente fila de la columna
+    Fila = Fila + 1
+    
+    
+    
+Next OItem
+
+Set OutlookApp = Nothing
+Set ONameSpace = Nothing
+Set MyFolder = Nothing
+
+  
+  
+
+End Sub
+
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+Sub GetFromOutlook()
+Dim OutlookApp  As Outlook.Application
+Dim OutlookNamespace As Namespace
+Dim Folder      As MAPIFolder
+Dim OutlookMail As Variant
+Dim i           As Integer
+Set OutlookApp = New Outlook.Application
+Set OutlookNamespace = OutlookApp.GetNamespace("MAPI")
+'For entire mailbox
+Set Folder = OutlookNamespace.GetDefaultFolder(olFolderInbox)
+'For specific folder
+'Set Folder = OutlookNamespace.GetDefaultFolder(olFolderInbox).Folders("Sales")
+i = 4
+For Each OutlookMail In Folder.Items
+'Subject
+Cells(i, 1) = OutlookMail.Subject
+'Received Date
+Cells(i, 2) = OutlookMail.ReceivedTime
+'Sender Name
+Cells(i, 3) = OutlookMail.SenderName
+'Body
+'Cells(i, 4) = OutlookMail.Body
+'Importance
+Cells(i, 5) = OutlookMail.Importance
+'cc
+'Cells(i, 6) = OutlookMail.CC
+'bcc
+'Cells(i, 7) = OutlookMail.BCC
+i = i + 1
+Next OutlookMail
+Set Folder = Nothing
+Set OutlookNamespace = Nothing
+Set OutlookApp = Nothing
+End Sub
+
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+vba send email
+
+Sub SendAnEmail()
+
+    Dim oOlApp As Outlook.Application: Set oOlApp = Outlook.Application
+    Dim oMailItem As Outlook.MailItem: Set oMailItem = oOlApp.CreateItem(olMailItem)
+
+    oMailItem.To = "myemail@test.com"
+    oMailItem.CC = ""
+    oMailItem.BCC = "myemail@test.com"
+
+    oMailItem.HTMLBody = "Again .. testing"
+    oMailItem.Display
+
+    Set oMailItem = Nothing
+    Set oOlApp = Nothing
+
+End Sub
+
+/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+vba cc bcc not working
+vba extract cc bcc not working
+
+vba extract inbox
+vba no admite la propiedad cc bcc
+
+
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+estaba mal juntado lo bloques del for por esos no coincide los tipos
+
+Sub ReadEmails()
+Dim ol As Outlook.Application
+Set ol = New Outlook.Application
+
+Dim olNs As Outlook.Namespace
+Set olNs = ol.GetNamespace("MAPI")
+
+Dim fldr As Outlook.MAPIFolder
+Set fldr = olNs.GetDefaultFolder(olFolderInbox).Folders("Kamal")
+
+
+Dim olMail As Outlook.MailItem
+
+
+r = 2
+
+For Each olMail In fldr.Items
+
+  Cells(r, 1).Value = olMail.Subject
+  Cells(r, 2).Value = olMail.SenderName
+  Cells(r, 3).Value = olMail.CC
+  r = r + 1
+  Next
+
+
+End Sub
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
