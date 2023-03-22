@@ -45,6 +45,50 @@ el nombre de la macro tambien se considera como un objeto
 
 VBA - Convert Exchange Online Email Address as SMTP Address
 
+PrimarySmtpAddress
+
+secondary smtp address vba
+
+vba obtain destination email address
+How do you extract email addresses from the 'To' field in outlook?
+
+vba to field email address
+Extract Email Data such as "From" and "To"
+
+vba extract email address from outlook
+vba outlook extract destination email
+
+vba outlook extract primary and secondary destination email
+
+How do you extract email addresses from the 'To' field in outlook?
+https://stackoverflow.com/questions/12641704/how-do-you-extract-email-addresses-from-the-to-field-in-outlook
+
+https://stackoverflow.com/questions/33527771/extract-smtp-address-from-exchange-user-in-the-from-field-of-a-message
+
+Recipients collection object
+how the Recipients object can be used to get an email address
+
+recipients no devuelve nada
+vba outlook array
+
+https://www.slipstick.com/developer/using-arrays-outlook-macros/
+
+How do you extract email addresses from the 'To' field in outlook?
+Export email details from Outlook to Excel
+
+vba outlook cc.address
+https://stackoverflow.com/questions/72179620/export-email-details-from-outlook-to-excel
+
+7 columnas
+Enumeración OlMailRecipientType (Outlook)
+
+https://learn.microsoft.com/es-es/office/vba/api/outlook.olmailrecipienttype
+olTo	1	El destinatario está especificado en la propiedad To de la Item.
+
+EmailAddressInfo es una funcion
+
+no se definido sub o function 
+significa que sub o funcion no existe
 
 
 
