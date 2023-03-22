@@ -20,6 +20,39 @@ Sender.GetExchangeUser.PrimarySmtpAddress
 
 copy range to outlook but remove empty rows (sort of) to tidy it up
 
+fecha larga con hora
+fecha corta sin hora
+
+me devuelve todos los correos del inbox
+
+Cells(iRows, 1) = objMail.Sender.GetExchangeUser.PrimarySmtpAddress
+return mail.SenderEmailAddress;
+
+HowTo: Convert Exchange-based email address into SMTP email address
+
+VBA - Convert Exchange Online Email Address as SMTP Address
+crear las macros por separado
+
+https://stackoverflow.com/questions/46664390/vba-convert-exchange-online-email-address-as-smtp-address
+
+fusionar las macros
+
+se requiere un objeto
+hay que crear el objeto
+
+https://learn.microsoft.com/es-es/office/vba/language/concepts/getting-started/using-ifthenelse-statements
+el nombre de la macro tambien se considera como un objeto
+
+VBA - Convert Exchange Online Email Address as SMTP Address
 
 
+
+
+
+
+
+
+
+
+ 
 
