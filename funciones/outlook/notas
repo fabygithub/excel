@@ -98,6 +98,9 @@ If Len(.SenderEmailAddress) > 0 Then
 // tambien se marca en amarillo el sub 
 iRow
 
+endwith sin with 
+significa que falta el with 
+
 
 
 
