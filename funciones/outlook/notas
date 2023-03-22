@@ -1,0 +1,25 @@
+How to Parse Outlook Emails and Show in Excel Worksheet using VBA
+se necesita un nuevo libro
+
+// funciona menos la parte del email
+https://www.encodedna.com/excel/how-to-parse-outlook-emails-and-show-in-excel-worksheet-using-vba.htm
+
+senderemailaddress return only the path
+Outlook VBA Mailitem property SenderEmailAddress not returning address correctly
+
+SenderEmailAddress is not actually giving me an email address, for example this is what I get saved in my table
+
+Outlook VBA Mailitem property SenderEmailAddress not returning address correctly
+
+si falta una variable
+es poque no se agrego la referencia de outlook en 
+herramientas - referencias
+
+SenderEmailAddress property
+Sender.GetExchangeUser.PrimarySmtpAddress
+
+copy range to outlook but remove empty rows (sort of) to tidy it up
+
+
+
+
