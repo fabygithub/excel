@@ -1,0 +1,44 @@
+Option Explicit
+
+Private Sub CommandButton1_Click()
+    On Error GoTo ErrHandler
+    
+    ' Set Outlook application object.
+    Dim objOutlook As Object
+    Set objOutlook = CreateObject("Outlook.Application")
+    
+    Dim objNSpace As Object     ' Create and Set a NameSpace OBJECT.
+    ' The GetNameSpace() method will represent a specified Namespace.
+    Set objNSpace = objOutlook.GetNamespace("MAPI")
+    
+    Dim myFolder As Object  ' Create a folder object.
+    Set myFolder = objNSpace.GetDefaultFolder(olFolderInbox)
+    
+    Dim objItem As Object
+    Dim iRows, iCols As Integer
+    iRows = 2
+
+    ' Loop through each item in the folder.
+    For Each objItem In myFolder.Items
+        If objItem.Class = olMail Then
+        
+            Dim objMail As Outlook.MailItem
+            Set objMail = objItem
+
+            Cells(iRows, 1) = objMail.SenderEmailAddress
+            Cells(iRows, 2) = objMail.To
+            Cells(iRows, 3) = objMail.Subject
+            Cells(iRows, 4) = objMail.ReceivedTime
+        End If
+        iRows = iRows + 1
+    Next
+    Set objMail = Nothing
+   
+    ' Release.
+    Set objOutlook = Nothing
+    Set objNSpace = Nothing
+    Set myFolder = Nothing
+ErrHandler:
+    Debug.Print Err.Description
+End Sub
+
