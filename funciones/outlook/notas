@@ -90,7 +90,18 @@ EmailAddressInfo es una funcion
 no se definido sub o function 
 significa que sub o funcion no existe
 
+// si el largo del email es mayor a 0
+If Len(.SenderEmailAddress) > 0 Then 
 
+
+//cuando no se define una variable se marca en azul
+// tambien se marca en amarillo el sub 
+iRow
+
+
+
+
+  
 
 
 
