@@ -36,7 +36,16 @@ End Sub
 
 
 
+'me va ordenando en el momento
 
+Cells(iRows, 6) = objMail.ReceivedTime
+             
+        Range("F1") = "Index"
+        Columns("A:F").Sort key1:=Range("F2"), _
+        order1:=xlDescending, Header:=xlYes
+        
+        
+             
 
 
 
