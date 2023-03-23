@@ -1,0 +1,51 @@
+https://officetuts.net/excel/vba/sort-data-by-date-in-vba/
+' me agrega la primera
+Cells(iRows + 0, 4) = Arr(olTo)
+
+' me agrega las demas
+Cells(iRows + 1, 4) = Arr(olTo)
+
+
+'ejemplo para ordenar columnas
+
+Sub foo4()
+
+  Range("C1") = "Index"
+  Columns("A:C").Sort key1:=Range("C2"), _
+  order1:=xlAscending, Header:=xlYes
+
+End Sub
+
+
+Sub foo4()
+
+  Range("F1") = "Index"
+   Columns("A:F").Sort key1:=Range("F2"), _
+      order1:=xlAscending, Header:=xlYes
+
+End Sub
+
+
+Sub foo4()
+
+  Range("F1") = "Index"
+   Columns("A:F").Sort key1:=Range("F2"), _
+      order1:=xlDescending, Header:=xlYes
+
+End Sub
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
