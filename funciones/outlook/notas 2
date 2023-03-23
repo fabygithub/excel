@@ -1,4 +1,7 @@
 no me permite tomar la ultima columna
  'Set olItem = myFolder.Items.Item(iRows)
  
+ que empieze desde la primera fila
+  Cells(iRows + 0, 4) = Arr(olTo)
+  
  
