@@ -1,0 +1,173 @@
+Option Explicit
+
+'Private Sub CommandButton1_Click()
+Sub foo1()
+     
+    On Error GoTo ErrHandler
+    
+    ' Set Outlook application object.
+    Dim objOutlook As Object
+    Dim olItem As Object
+    Set objOutlook = CreateObject("Outlook.Application")
+    
+    Dim objNSpace As Object     ' Create and Set a NameSpace OBJECT.
+    ' The GetNameSpace() method will represent a specified Namespace.
+    Set objNSpace = objOutlook.GetNamespace("MAPI")
+    
+    Dim myFolder As Object  ' Create a folder object.
+    Set myFolder = objNSpace.GetDefaultFolder(olFolderInbox)
+    
+    Dim objItem As Object
+    Dim iRows, iCols As Integer
+    iRows = 2
+    Dim Arr As Variant
+
+    ' Loop through each item in the folder.
+    For Each objItem In myFolder.Items
+    
+    'Set olItem = myFolder.Items.Item(iRows)
+    
+        If objItem.Class = olMail Then
+        
+            Dim objMail As Outlook.MailItem
+            Set objMail = objItem
+            'sender.GetExchangeUser() es lo mis misom a objMail.SenderEmailAddress
+               
+             
+            If objMail.SenderEmailType = "EX" Then
+              Cells(iRows, 2) = objMail.sender.GetExchangeUser.PrimarySmtpAddress
+              
+            Else
+              Cells(iRows, 2) = objMail.SenderEmailAddress
+            End If
+            
+             Cells(iRows, 1) = objMail.SenderName
+             Cells(iRows, 4) = objMail.Subject
+             Cells(iRows, 5) = objMail.ReceivedTime
+             
+             'iRows son las filas
+              Arr = EmailAddressInfo(myFolder.Items(iRows))
+              Cells(iRows + 1, 3) = Arr(olTo)
+            
+             'Cells(iRows, 3) = objMail.To
+                                       
+        End If
+         
+             iRows = iRows + 1
+        
+    Next
+    Set objMail = Nothing
+   
+    ' Release.
+    Set objOutlook = Nothing
+    Set objNSpace = Nothing
+    Set myFolder = Nothing
+ErrHandler:
+    Debug.Print Err.Description
+    
+    Dim email As String
+    
+    
+End Sub
+
+
+
+
+Private Function EmailAddressInfo(objItem As Object) As Variant
+
+    ' https://stackoverflow.com/a/66484483/1571407
+    
+    Dim olRecipient As Outlook.Recipient
+    Dim olEU As Outlook.ExchangeUser
+        
+    Dim olEDL As Outlook.ExchangeDistributionList
+    
+    Dim ToAddress As String
+    Dim CCAddress As String
+    Dim Originator As String
+    Dim email As String
+    
+    If objItem.Class <> olMail Then
+        'EmailAddressInfo = Array("Not a mailitem.", "", "")
+        Exit Function
+    End If
+    
+    'Debug.Print objItem.Subject
+            
+    With objItem
+        Select Case UCase(.SenderEmailType)
+            Case "SMTP"
+                If Len(.SenderEmailAddress) > 0 Then
+                    'Originator = .SenderEmailAddress
+                Else
+                    'Originator = "Not available."
+                End If
+                'Debug.Print "Originator: " & Originator
+                
+            Case Else
+                Set olEU = .sender.GetExchangeUser
+                If Not olEU Is Nothing Then
+                    Originator = olEU.PrimarySmtpAddress
+                    Debug.Print "Originator: " & Originator
+                End If
+                
+        End Select
+    End With
+    
+    For Each olRecipient In objItem.Recipients
+    
+        With olRecipient
+        
+            Select Case .AddressEntry.AddressEntryUserType
+            
+                Case olSmtpAddressEntry 'OlAddressEntryUserType.
+                    email = .Address
+                    
+                Case olExchangeDistributionListAddressEntry, olOutlookDistributionListAddressEntry
+                    Set olEDL = .AddressEntry.GetExchangeDistributionList
+                    email = IIf(Not olEDL Is Nothing, olEDL.PrimarySmtpAddress, "")
+                    
+                Case Else
+                
+                    Set olEU = .AddressEntry.GetExchangeUser
+                    
+                    If Not olEU Is Nothing Then
+                    
+                        ' This may be valid somewhere but
+                        '  in my environment it is never used
+                        email = olEU.PrimarySmtpAddress
+                        Debug.Print " olEU.PrimarySmtpAddress: " & email
+                    
+                    Else
+                        Debug.Print
+                        Debug.Print "**** olEU Is Nothing ****"
+                        
+                        ' https://stackoverflow.com/a/51939384/1571407
+                        ' "It looks like, for email addresses outside of your organization,
+                        '   the SMTP address is hidden in emailObject.Recipients(i).Address"
+                        email = .Address
+                        Debug.Print " olRecipient.Address: " & email
+                        
+                    End If
+                        
+            End Select
+            
+            If email <> "" Then
+                Select Case .Type
+                    Case olTo
+                        ToAddress = ToAddress & email & ";"
+                        Debug.Print ToAddress
+                        
+                    Case olCC
+                        CCAddress = CCAddress & email & ";"
+                        Debug.Print CCAddress
+                End Select
+            End If
+        End With
+    Next
+    
+    EmailAddressInfo = Array(Originator, ToAddress, CCAddress)
+    
+    
+
+End Function
