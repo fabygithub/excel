@@ -1,0 +1,4 @@
+no me permite tomar la ultima columna
+ 'Set olItem = myFolder.Items.Item(iRows)
+ 
+ 
