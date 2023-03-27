@@ -3,6 +3,12 @@ se podria buscar por el pep
 
 =BUSCARX(A10;Solicitudes_Obras!J:J;Solicitudes_Obras!K:K)
 =BUSCARX(Solicitudes_Obras!J6;Solicitudes_Obras!J:J;Solicitudes_Obras!K:K)
+=BUSCARX(Solicitudes_Obras!K6;Solicitudes_Obras!K:K;Solicitudes_Obras!L:L)
+
+=BUSCARX(Solicitudes_Obras!J6;Solicitudes_Obras!J:J;Solicitudes_Obras!J:J)
+=BUSCARX(Solicitudes_Obras!M6;Solicitudes_Obras!M:M;Solicitudes_Obras!M:M)
+
+
 
 
 
