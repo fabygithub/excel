@@ -1,3 +1,5 @@
 =FILTRAR([Administrativo.xlsm]Solicitudes_Diseño!$G273;{1})
 =FILTRAR([Administrativo.xlsm]Solicitudes_Diseño!$Y273;{1})
+=FILTRAR([Administrativo.xlsm]Solicitudes_Diseño!$A269;{1})
+
 
