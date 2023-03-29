@@ -1,0 +1,150 @@
+formilas
+automation
+VBA Macros
+excel macros for enterprise
+course
+business intelligence
+
+https://corporatefinanceinstitute.com/resources/excel/excel-vba-macros/
+
+Get Certified for  Business Intelligence (BIDA®)
+Develop analytical superpowers by learning how to use programming and data analytics 
+tools such as VBA, Python, Tableau, Power BI, Power Query, and more.
+
+excel automation
+
+https://learn.microsoft.com/es-es/training/modules/pad-excel-automation/1-introduction
+
+Introducir
+procesar 
+y seleccionar datos de un documento
+
+
+al trabajar en excel uno realiza areas
+
+son tareas algorítmicas que a menudo se realizan manualmente
+
+lo que implica la posibilidad de numerosos escenarios 
+y casos de uso para automatizar estas tareas
+
+considere un escenario en el que una empresa recibe una lista de clientes en un documento de Excel
+La estructura del documento puede diferir de la forma en la que la empresa mantiene sus registros
+
+Para que la nueva lista se pueda agregar a cualquier archivo principal
+datos deben reestructurarse para que coincidan con la estructura del archivo principal
+
+Por lo tanto, se debe leer el documento de Excel, se deben cambiar las filas o columnas para que coincidan con el formato del archivo principal
+luego se deben copiar los datos al archivo principal para garantizar que no haya errores ni pérdida de información
+
+Esta tarea se puede automatizar para garantizar que todas las actualizaciones del archivo principal 
+se produzcan sin intervención humana y sin errores.
+
+acciones de Excel mediante el diseño de flujos que automatizan las tareas empresariales relacionadas con Excel.
+https://learn.microsoft.com/es-es/training/modules/pad-excel-automation/2-launching-saving-closing
+
+Iniciar, guardar y cerrar un archivo de Excel
+Abrir un archivo de Excel y crear una instancia
+
+La primera tarea para automatizar cualquier tarea relacionada con Excel es crear una instancia de Excel.
+Una instancia determina con qué sesión de la aplicación interactuará Power Automate para escritorio.
+
+Estas operaciones se logran mediante las acciones Iniciar Excel o Asociar a Excel en ejecución.
+
+power automate desktop
+Working with macros - SAP Help Portal
+
+Responda las preguntas siguientes para ver lo que ha aprendido.
+
+La automatización de Excel utiliza la programación robótica para automatizar los procesos 
+y las funciones de Microsoft Excel.
+
+¿Qué es la Automatización de Excel?
+
+Con la barra de herramientas, puede trazar gráficos 
+y crear tablas de pivote, 
+así como buscar y compilar datos de cualquier número de fuentes
+
+Lo más importante es que con el lenguaje de programación VBA, 
+el editor de Visual Basic y el grabador de macros, 
+puede ejecutar tareas repetitivas simples o complejas con el clic de un botón.
+
+ desde las finanzas hasta los programas de los empleados
+ ejemplos de automatización y elegantes plantillas de Excel 
+ preprogramadas para manejar conjuntos de datos específicos
+ 
+Esas son muchas de horas de trabajo desperdiciadas y mucho flujo de trabajo 
+interrumpido que puede ahorrarse con la automatización de Excel
+
+Permite a los usuarios automatizar procesos repetibles
+
+ingresar datos
+pueden crear y grabar macros, utilizarlas y crear informes, todo ello sin tener que aprender código VBA
+
+ncluso puede modernizar este marco para poblar las herramientas de inteligencia empresarial 
+y ciencia de datos para que las organizaciones puedan optimizar sus datos de Excel.
+
+
+Simplifica las tareas complejas
+y permite a las empresas repetir con rapidez y precisión procesos que ahorran tiempo, dinero y esfuerzo
+
+También es la clave para actualizar los procesos empresariales (y sistemas) heredados
+de manera que funcionen sin problemas con los contemporáneos para 
+
+un análisis detallado, 
+ciencia de datos e 
+inteligencia empresarial
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
