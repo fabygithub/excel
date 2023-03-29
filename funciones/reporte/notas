@@ -1,1 +1,72 @@
 how to make reporsts with various workbooks in excel more easy
+Quick Guide: Create a Report with Data from Multiple Workbooks
+
+Reports let you collect and aggregate data from multiple worksheets or workbooks 
+to create a combined view of data from different sources.
+
+With reports, you can collect data from multiple places across Spreadsheet.com
+
+Let’s say there are three different departments – Marketing, Finance, and Operations – 
+in your organization, each with their own workbooks for tracking contacts and key personnel.
+
+With reports, you can collect all of this information in a single location without having to merge workbooks
+Each department can maintain their own records
+
+Reports can be created in just a few steps. Let’s take a look.
+
+Once you create a new report
+you will automatically be prompted to select Source sheets
+he worksheets from other workbooks whose data will populate your report
+Toggle the checkboxes next to each sheet name to include them in your report
+
+Reports can be created with data from any number of source sheets
+and you can always edit your selection once your report has been created
+
+After you select your Source sheets, you can select your report columns, 
+the columns from your Source sheets that determine how your report is populated and organized.
+
+Each row in the Display columns dialog is used to configure a different column in your report.
+
+Assign the report column a name in the Report column name field
+your source worksheets that will populate your column in the Source columns field at right
+additional columns to your report by clicking the + New column button.
+
+hacer una hoja que se llame reporte
+cuando hace un reporte guardar las coordenadas
+
+https://www.spreadsheet.com/guides/create-a-report-with-data-from-multiple-workbooks
+
+nombre de la hoja      nombre del libro   nombre          compañia           posicion  email
+contacts                inversores crm    patrick bass    tifany's bazaar    ceo      pbass@newblend.com    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
