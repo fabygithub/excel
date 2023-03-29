@@ -40,6 +40,34 @@ nombre de la hoja      nombre del libro   nombre          compañia           po
 contacts                inversores crm    patrick bass    tifany's bazaar    ceo      pbass@newblend.com    
 
 
+A single column in a report can be populated with data from source sheet columns of different data types.
+
+If you have three different email address columns – 
+one as Text, 
+another as Email, 
+and a third created with Column formula
+
+all of them can be included in the same report column.
+
+Once you’ve selected your source sheets and columns
+
+Reports also support the same sorting, filtering, and row groupWhen you’re ready to distribute a report to your team or other stakeholdersing options 
+found in Spreadsheet.com Views so you can organize your reports to your liking.
+
+Plus, reports are dynamic and will automatically update to reflect changes 
+made in source sheets – no manual updating necessary.
+
+When you’re ready to distribute a report to your team or other stakeholders
+you can print it, export it as a PDF, or share it in its original format with Spreadsheet.com’s 
+sharing and collaboration options.
+
+The spreadsheet you know with the power of a database, built-in project management, no-code automations, integrations, 
+and real-time updates.
+
+
+copy column from another sheet excel without opening
+
+
 
 
 
