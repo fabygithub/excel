@@ -1,0 +1,17 @@
+https://learn.microsoft.com/es-es/office/vba/api/excel.application.cutcopymode
+
+Ejemplo
+En este ejemplo se usa un cuadro de mensaje para mostrar el estado del modo Cortar o Copiar.
+
+VB
+
+Copiar
+Select Case Application.CutCopyMode 
+ Case Is = False 
+ MsgBox "Not in Cut or Copy mode" 
+ Case Is = xlCopy 
+ MsgBox "In Copy mode" 
+ Case Is = xlCut 
+ MsgBox "In Cut mode" 
+End Select
+
