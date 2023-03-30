@@ -1,0 +1,64 @@
+juntar varios libros en uno solo con power pivot
+
+1 revisar si funciona en tabla dinamica o hoja normal
+
+To convert a pivot table to formulas, select OLAP tools from the Analyse 
+ribbon and select convert to formulas.
+
+pivot table fields
+
+pivot table
+inicio
+datos
+
+Power View y OLAP en Exce
+
+How to Use the Excel Pivot Table Field List - Contextures
+
+analize
+o analizar tabla dinamica
+
+actualizar
+cambiar origen de datos
+
+analizar tabla dinamica
+mostrar 
+lista de campos
+
+insertar tabla dinamica
+
+The pivot table field list will contain all the tables 
+that have been loaded into your power pivot data model
+
+la tabla dinamica se puede crear desde power query
+
+Create a Data Model in Excel - Microsoft Support
+
+power query
+
+iniciar.xlsx = libro
+hoja1 = hoja
+hoja2 = hoja
+menu  = hoja
+
+poner cargar
+se cargan las 3 hojas
+
+https://support.microsoft.com/en-us/office/create-a-data-model-in-excel-87e7a54c-87dc-488e-9410-5c75dbcb0f7b
+
+data - conections
+cada hoja se agrega en una hoja nueva
+
+hay que borrar la conexiones
+usar la primera fila como encebezado
+
+
+
+
+
+
+
+
+
+
+
