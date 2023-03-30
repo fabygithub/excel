@@ -56,6 +56,13 @@ From delimiter window, select custom,
 add “-” as a delimiter, 
 and select “Left-most delimiter”.
 
+ejemplo:
+
+//without delimiter
+east-zone
+//with delimiter -
+east
+
 
 rename
 capitalize earch word
@@ -99,6 +106,9 @@ How to Create a Pivot Table from Multiple Worksheets
 30 Pivot Table Tips & Tricks
 How to Add Custom Field and Item in a Pivot Table
 How to Refresh All Pivot Tables at Once
+
+en power pivot
+el nombre de la hoja se agrega como columna
 
 
 
