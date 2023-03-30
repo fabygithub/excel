@@ -107,6 +107,56 @@ cuando se cierra el libro se crea la referencia
 hacer mas facil las tareas
 para que complicarce
 
+seleccionar toda la columna
+=H:H
+
+y si se abre de nuevo el otro libro cambia la referencia
+
+=[reporte.xlsx]referencia!A1:A7
+
+// libro - hoja - columna
+=[reporte.xlsx]referencia!A:A
+
+// hoja con macros
+=[macros.xlsm]hoja2!A:A
+
+modelo de datos
+
+crear una hoja menu 
+y se puede crear un identificador unico 
+para los libros - hojas - columnas
+
+create a list of sheets
+no se puede usar referencias a libros para las listas
+
+How do I create a list from a named range in Excel?
+How do I create a drop-down list with a named range?
+
+create a list with named range another workbook
+para tenga mas rango hay que cambiar el scope : workbook
+
+list cannot used workbook as reference
+Excel drop down list in another workbook - Microsoft Community
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
