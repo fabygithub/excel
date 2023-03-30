@@ -98,9 +98,18 @@ https://support.microsoft.com/en-us/office/create-an-external-reference-link-to-
 If you close the source workbook, Excel will automatically append the file path to the formula:
 ='C:\Reports\[SourceWorkbook.xlsx]Sheet1'!$A$1
 
+crear una referencia
 =[reporte.xlsx]referencia!$A$1
 
 ='C:\Users\USUARIO\Desktop\practica\ejercicio\pruebas\[reporte.xlsx]referencia'!$A$1
+cuando se cierra el libro se crea la referencia
+
+hacer mas facil las tareas
+para que complicarce
+
+
+
+
 
 
 
