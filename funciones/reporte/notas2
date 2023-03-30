@@ -1,0 +1,115 @@
+How To Make Reports in Excel: Steps, Uses and Tips
+create pivot table without range
+Contextures
+Pivot Table Dynamic Data Source
+Create a pivot table that is based on a dynamic data source -- that is a range that adjusts automatically, if new records are added or existing data is changed or removed.
+
+recommended pivot tables
+
+Author: Debra Dalgleish
+
+Getting Started with Pivot Tables
+
+Try an Interactive Pivot Table
+
+Set Up a Dynamic Data Source
+
+Create a Pivot Table
+
+Video: Locate and Fix Source Data
+
+Get the Sample File
+
+Pivot Table Tutorial List
+
+Get Started with Pivot Tables
+The first step in creating a Pivot Table is to organize your data in a list of rows and columns. Make sure that there is a heading in every column, and check that there are no rows that are completely blank.
+
+In the screen shot below, the data is set up correctly, and has these features:
+
+every cell in the list headings, in row 3, is filled
+each heading is unique - there are no duplicates that could cause problems
+the data is in rows 4 to 9, from column A to column H
+there is no data in the adjacent rows or columns - there are empty rows and columns surrounding the data
+Tip: To make sure the data is in a solid block of cells, try this:
+
+Select any cell in the range of cells
+On the keyboard, press Ctlr + A (select All)
+Are all the cells selected? If not, check for hidden rows or columns that might be empty.
+prepare data for excel table
+
+Try This Pivot Table
+Before you build your own pivot table in an Excel workbook, you can see how a pivot table works, by trying the interactive Microsoft Excel example shown below.
+
+Note: This embedded interactive Excel file might not work in all web browsers.
+
+
+
+Set Up a Dynamic Data Source
+Next, set up the data range as a dynamic range, using one of the options shown below.
+
+1) Named Table
+
+2) Formula-Based Dynamic Range
+
+Advantages of using a dynamic range as a data source:
+
+A dynamic range will automatically expand or contract, if new columns or rows of data are added, or data is removed.
+You can base a pivot table on the dynamic range. Then, when you refresh the pivot table, it will include all of the data in the range, even if new rows or columns have been added.
+NOTE: You must update pivot table after making changes to the records in the dynamic data source. The pivot table does NOT update automatically, to show revised or new data
+
+Create a Named Table
+In Excel 2007 and later versions, you can format your list as a Named Table, and use that as the dynamic source for your Pivot Table.
+
+To see the steps in creating an Excel Table, you can watch this short video tutorial. There are written steps below the video, and more Table tips and videos on the Excel Tables page.
+
+Note: If you're using Excel 2003, organize your data in Excel Lists
+
+Create an Excel Table
+After your data is organized, as described above, follow these steps to create a named Excel Table.
+
+Select a cell in the list of data that you prepared on the worksheet.
+On the Excel Ribbon, click the Insert tab.
+insert table command
+
+In the Tables group, click the Table command.
+In the Create Table dialog box:
+range for your data should automatically appear
+check box for My table has headers option should be checked
+If necessary, you can adjust the range, and check box for table headers
+Click the OK button, to create a named table with the selected settings.
+create table dialog box
+
+Formula-Based Dynamic Range
+If you don't want to use a named table, you can use an Excel formula to create a dynamic range. This formula can use the INDEX or OFFSET functions to create the range.
+
+This video shows the steps for using the OFFSET function, in Excel 2007, and the written instructions are below the video.
+
+Create Dynamic Named Range With Formula}
+How to Create and Use Excel Named Ranges - Contextures
+
+use named range from another workbook
+Define a name that contains an external reference to cells in another workbook
+
+https://support.microsoft.com/en-us/office/create-an-external-reference-link-to-a-cell-range-in-another-workbook-c98d1803-dd75-4668-ac6a-d7cca2a9b95f
+
+=[SourceWorkbook.xlsx]Sheet1!$A$1
+
+If you close the source workbook, Excel will automatically append the file path to the formula:
+='C:\Reports\[SourceWorkbook.xlsx]Sheet1'!$A$1
+
+=[reporte.xlsx]referencia!$A$1
+
+='C:\Users\USUARIO\Desktop\practica\ejercicio\pruebas\[reporte.xlsx]referencia'!$A$1
+
+
+
+
+
+
+
+
+
+
+
+
