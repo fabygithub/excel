@@ -1,0 +1,169 @@
+https://support.microsoft.com/en-us/office/create-a-pivottable-to-analyze-worksheet-data-a9a84538-bfe9-40a9-a8e9-f99134456576
+
+A PivotTable is a powerful tool to calculate, summarize, and analyze data 
+that lets you see comparisons, patterns, and trends in your data. 
+
+PivotTables work a little bit differently depending on what platform you are using to run Excel.
+
+power pivot = tabla dinamica
+modelado de datos
+modelo de datos
+
+para hacer reportes usamos tablas dinamicas
+pivot table power bi
+
+https://excelchamps.com/pivot-table/pivot-table-multiple-files/
+Create a Pivot Table using Multiple Excel Files (Workbooks)
+
+A Pivot Table is one of the best ways to summarize data.
+You can create a summary report within seconds from thousands of rows of data
+
+He has been following up with me for quite a long time.
+that case creating a pivot table needs some extra effort for combining those multiple workbooks into one.
+
+So in this post, I’d like to show you aw three steps process 
+to create a pivot table by using data from multiple workbooks.
+
+Steps to Create a Pivot Table using Data from Multiple Workbooks
+Important: For this, we need to use the power query, so make sure you have the power query in your Excel version
+
+And make sure you have all these files in a single folder.
+
+Step 1 – Combine Files using Power Query
+Go to Data Tab -> 
+Get Transformation -> 
+New Query -> 
+From File -> 
+From Folder.
+
+combine & edit
+combinar y transformar
+
+And from that window, select the worksheet in with you data in all the workbooks. 
+(Quick Tip: Make sure to have the same worksheet name in all the workbooks).
+
+select the worksheet
+Once you click OK and it will edit all the data from the workbooks into power query editor.
+
+Step 2 – Prepare Data for the Pivot Table
+Now, we need to make little changes in our data to make it ready for a pivot table.
+
+If you look at the data we have got an extra column here with the name of the source file.
+
+split column - by delimiter
+
+From delimiter window, select custom, 
+add “-” as a delimiter, 
+and select “Left-most delimiter”.
+
+
+rename
+capitalize earch word
+
+close and load
+
+Click OK on insert pivot table window and you’ll get new pivot table in your workbook.
+Congratulations! you have successfully created a new pivot table from different files.
+
+Refresh Pivot Table
+
+I’m sure you are thinking about how to refresh 
+your pivot table 
+after updating source files.
+
+It’s simple. To refresh your pivot table you need to update the query 
+so that the data from the source file can be updated in the source table 
+which you created with power query. 
+And after that, you can update your pivot table.
+
+But, the simple and best way is to use refresh button from the data tab. 
+It will refersh both (Pivot Table + Query).
+
+data tab
+refresh all
+
+Important Points
+Here I have listed some points which you need to remember while using power query for a pivot table.
+
+Files should be in a single folder.
+Data should be in the same format in all the files.
+Otherwise, you need to make it usable after combining it.
+
+The name of the worksheets should be the same in all the files.
+Make sure you don’t have an error in any file. Or you can use the “Skip error files” option.
+Don’t rename any workbook.
+
+Must Read Next
+How To Create a Pivot table Using VBA
+How to Create a Pivot Table from Multiple Worksheets
+30 Pivot Table Tips & Tricks
+How to Add Custom Field and Item in a Pivot Table
+How to Refresh All Pivot Tables at Once
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
