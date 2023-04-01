@@ -2,3 +2,22 @@ agregar estos datos al modelo de datos
 modelo de datos - administrar
 asistente para la importacion de tablas
 usar la primera fila como encabezados de columna
+El archivo que ha elegido está en uso. 
+Cierre el archivo antes de importar.
+
+No se puede actualizar la conexión. Vaya a las conexiones existentes y compruebe que se conectan al archivo o al servidor.
+crear una conexion
+
+consultas y conexiones
+las conexiones son vinculos a origenes de datos externos
+
+con la opcion importar carpeta se puede:
+combinar
+cargar
+transformar
+
+obtener datos
+obtener datos de power query
+
+
+
