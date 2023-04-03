@@ -1,1 +1,45 @@
 diseño de tabla - nombre de tabla
+pivot table import several tables
+
+PivotTables are great for analyzing and reporting on your data. 
+And when your data happens to be relational—meaning it's stored in 
+separate tables you can bring together on common values—you 
+can build a PivotTable.
+
+What’s different about this PivotTable? Notice how the Field List on the right 
+shows not just one but a collection of tables. 
+Each of these tables contain fields you can combine in a single PivotTable 
+to slice your data in multiple ways. No manual formatting or data preparation 
+is necessary. You can immediately build a PivotTable based on related tables 
+as soon as you import the data.
+
+el nombre de la tabla - sea el nombre de la hoja
+Step one: import related tables from a database
+Import from a relational database, like Microsoft SQL Server, Oracle, or Access. 
+You can import multiple tables at the same time
+
+crear un archivo compartido
+Refresh PivotTable data
+
+//agregar tabla dinamica
+se puede agregar de forma directa
+o atravez de power pivot
+
+por ejemplo si borro las tablas de forma directa
+se borra en la tabla dinamica
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
