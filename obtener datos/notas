@@ -1,0 +1,40 @@
+content
+quitar otras columnas
+agregar columna
+columna personalizada
+nuevo nombre de columna = getData
+formula : =functionGetFiles([Folder Path],[Name])
+vista 
+editor avanzado
+
+name : functionGetFiles
+
+let GetFiles=(Path,Name)=>
+
+let
+    Origen = Excel.Workbook(File.Contents(Path&Name), null, true),
+    Tabla1_Table = Origen{[Item="Tabla1",Kind="Table"]}[Data],
+    #"Tipo cambiado" = Table.TransformColumnTypes(Tabla1_Table,{{"Columna1", type text}, {"Columna2", type text}, {"Columna3", type text}})
+in
+    #"Tipo cambiado"
+
+in GetFiles
+
+
+GetData
+=functionGetFiles([Folder Path],[Name])
+
+= Table.SelectColumns(#"Se expandió GetData",{"GetData.nombre", "GetData.apellido", "GetData.apellido2"})
+
+
+
+se puede hacer pero con varias hojas
+con el mismo nombre de hojas
+
+
+
+
+
+
+
+
