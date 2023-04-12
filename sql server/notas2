@@ -1,0 +1,203 @@
+hay que revisar el formato de la hoja 
+si esta como formato de tabla 
+si se importan 2 veces parece que se agregue duplicado
+
+si la vuelve a agregar 
+si se agrega denuevo se duplica
+
+el error del insert into o el select
+se debe a que el archivo no esta guardado en el sql server
+How to Update a SQL Table from Excel
+
+Use Excel to update your data in SQL Server?
+SQL Query to Update All Rows in a Table
+update sql server from excel
+
+update sql server table from excel spreadsheet
+How do I sync data from Excel to SQL?
+
+How do I refresh data from Excel to SQL?
+Refresh an external data connection in sql server
+Refresh an external data  in sql server
+
+How to automatically refresh a SQL Server database
+How to refresh external data connection?
+
+update external data  in sql server
+sql server alter external table
+
+Updating external data sources in SQL Server
+excel update sql server
+
+edit mapping
+edit sql
+
+sql server management studio not refreshing
+Refresh button not updating database in SSMS although query is successfully completed :(
+update external data in sql server
+
+sql server refresh table not working
+excel import not updated sql server
+
+importing excel file into SQL and updating records
+https://social.msdn.microsoft.com/Forums/sqlserver/en-US/89e8aa59-1481-4fcc-9ed5-e911a351a751/importing-excel-file-into-sql-and-updating-records?forum=sqlintegrationservices
+
+--Update your table using openrowset 
+update a set a.col1= b.newname 
+from tab1 a inner join 
+(SELECT oldname,newname  FROM OPENROWSET('Microsoft.Jet.OLEDB.4.0',
+'Excel 8.0;Database=<C:\test\xltest.xls>', 'SELECT * FROM [Sheet1$]')) b 
+on a.col1=b.oldname
+
+
+select openrowset sql server
+select openrowset excel sql server
+
+C:\Users\USUARIO\Desktop\esval\ejercicio\pruebas\reportes\prueba2.xls
+
+ad hoc distributed queries (opción de configuración del servidor)
+
+activar esa opcion
+
+sp_configure 'show advanced options', 1;  
+RECONFIGURE;
+GO 
+sp_configure 'Ad Hoc Distributed Queries', 1;  
+RECONFIGURE;  
+GO  
+
+0 = deshabilitado
+1 = habilitado
+
+excel 97 microsoft ace oledb 12.0
+No se puede obtener ('IID_IDBCreateCommand') del proveedor OLE DB 'Microsoft.ACE.OLEDB.12.0'
+
+https://social.msdn.microsoft.com/Forums/es-ES/1db648aa-4168-411e-b555-894f905237cb/error-7399-linked-server-en-sql-server-2012-sobre-windows-8-pro?forum=sqlserveres
+Error 7399 Linked Server en SQL Server 2012 Sobre Windows 8 Pro RRS feed
+
+server objects
+linked servers
+providers
+
+tengo instalado el oleb 12.0  y el 16.0
+
+--OPENROWSET
+SELECT * 
+FROM OPENROWSET('Microsoft.ACE.OLEDB.12.0', 
+   'Excel 12.0 Xml;Database=C:\Users\USUARIO\Desktop\esval\ejercicio\pruebas\reportes\prueba2.xlsx;', Hoja1$);
+
+microsoft.ace.oledb.12.0 access denied
+The OLE DB provider "Microsoft.ACE.OLEDB.12.0" for linked server "(null)"
+
+Solution
+
+File was open. Close it.
+
+acceso denegado ocurre cuando el archivo excel esta abierto
+
+'Microsoft.ACE.OLEDB.12.0' del servidor vinculado '(null)'. El proveedor admite la interfaz, pero devuelve un código de error cuando se usa.
+
+Admitir conjuntos de filas de esquema | Microsoft Learn
+Error al importar registros de Excel a SQL
+
+openrowset sql server excel
+Importar desde Excel con OPENROWSET
+
+''c:\ejemplo\Excel1.xlsx' is not a valid path.
+la ruta esta mala
+
+ no contiene la tabla 'Sheet1$
+ hay un problema con la hoja de excel
+ 
+ https://javifer2.wordpress.com/2020/05/09/importar-desde-excel-con-openrowset/comment-page-1/
+ 
+ 
+GO
+EXEC sp_configure 'Show Advanced', 1
+RECONFIGURE
+GO
+EXEC sp_configure 'Ad hoc dis', 1
+RECONFIGURE
+GO
+EXEC master.dbo.sp_MSset_oledb_prop 
+N'Microsoft.ACE.OLEDB.12.0', 
+N'AllowInProcess', 1
+GO
+EXEC master.dbo.sp_MSset_oledb_prop 
+N'Microsoft.ACE.OLEDB.12.0', 
+N'DynamicParameters', 1
+GO
+
+
+SELECT * FROM OPENROWSET(
+'Microsoft.ACE.OLEDB.12.0'
+,'Excel 12.0;Database=C:\Users\USUARIO\Desktop\esval\ejercicio\pruebas\reportes\prueba.xlsx;HDR=YES'
+,[Hoja1$]) 
+
+
+It is already opened exclusively by another user
+cuando esta abierto el excel puede lanzar error en sql server
+
+
+No se puede obtener ('IID_IDBCreateCommand') del proveedor OLE DB 'Microsoft.ACE.OLEDB.16.0'
+es un problema con el archivo excel
+
+reporte2 funciona
+
+superhoja tambien funciona
+
+excel : el formato o la extension no son validos
+
+No se ha registrado el proveedor OLE DB 'Microsoft.ACE.OLEDB.13.0' = el proovedor no esta instalado
+
+se le cambio a 16 funciona porque esta instalado
+
+excel 12.0
+Excel 12.0, que se popularizó como Excel 2007
+
+No se puede inicializar el objeto de origen de datos del proveedor OLE DB 'Microsoft.ACE.OLEDB.16.0' para el servidor vinculado '(null)'.
+puede deberse a un problema con el excel
+
+
+excel versiones
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
