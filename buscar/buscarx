@@ -47,6 +47,123 @@ crear una tablas vacias que no tienen insert into todavia
 
 correcto se han tranferido 0 filas
 
+example 
+
+INSERT INTO Customers (CustomerName, ContactName, Address, City, PostalCode, Country)
+VALUES ('Cardinal', 'Tom B. Erichsen', 'Skagen 21', 'Stavanger', '4006', 'Norway');
+
+sql server table invalid object name
+sql server invalid object name - but tables are listed in SSMS tables list
+
+sql server insert into invalid object name
+el error esta en el insert into
+
+
+Invalid Object Name when attempting to insert data from a table in one DB to a table in another DB on the same server
+
+table no appear in dbo sql server
+Table not getting created under dbo schema
+
+SQL Server 2012 - where is the table in dbo? [closed]
+there is already a object name in the database
+
+There Is Already an Object Named in the Database Fixes : el objeto o la tabla ya esta creada
+
+
+ALTER TABLE [dbo].[visits]  WITH CHECK ADD FOREIGN KEY([store_id])
+REFERENCES [dbo].[stores] ([store_id])
+GO
+
+sql server 2022 insert into error
+
+una solucion es mantener el create arriba
+
+CREATE TABLE dbo.Cars 
+(
+   CarID tinyint NULL, 
+   Manufacture varchar(30) NULL, 
+   Model Varchar(30) NULL,
+   ModelYear int NULL, 
+   PurchaseDate date NULL
+);
+
+
+INSERT INTO dbo.Cars (CarID, 
+           Manufacture,
+           Model, 
+           ModelYear, 
+           PurchaseDate)
+VALUES (1, 'Ford', 'F250', 2017, '2021-11-25');
+
+
+USE [test]
+GO
+
+/****** Object:  Table [dbo].[stores]    Script Date: 12/04/2023 11:42:54 ******/
+SET ANSI_NULLS ON
+GO
+
+SET QUOTED_IDENTIFIER ON
+GO
+
+CREATE TABLE [dbo].[stores](
+	[store_id] [int] NOT NULL,
+PRIMARY KEY CLUSTERED 
+(
+	[store_id] ASC
+)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON, OPTIMIZE_FOR_SEQUENTIAL_KEY = OFF) ON [PRIMARY]
+) ON [PRIMARY]
+GO
+
+
+
+INSERT INTO [dbo].[stores]
+           ([store_id])
+     VALUES
+           ('1')
+GO
+
+
+cuando se utiliza una tabla se debiera marcar una ventana con cuadraditos
+
+select * from dbo.stores
+
+https://www.red-gate.com/simple-talk/databases/sql-server/learn/the-basics-of-inserting-data-into-a-sql-server-table/
+
+import various workbook excel in sql server
+How to Import Multiple Excel Worksheets to SQL Database
+
+Import data from multiple Excel files into SQL Server tables using an SSIS package
+https://www.sqlshack.com/import-data-from-multiple-excel-files-in-sql-server-tables-using-an-ssis-package/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
