@@ -1,0 +1,94 @@
+Import data from multiple Excel files into SQL Server tables using an SSIS package
+
+https://www.sqlshack.com/import-data-from-multiple-excel-files-in-sql-server-tables-using-an-ssis-package/
+
+Suppose you received multiple Excel files (let’s say 50) 
+for data import. You need to launch an import wizard 50 times 
+and complete it. It is a manual, 
+tedious, and time-consuming task.
+
+Let’s explore the SSIS solution in this article.
+
+el proveedor 'microsoft.ace.oledb.12.0' no está registrado en el equipo local
+: significa que no esta instalado
+
+revisar si se puede ocupar otra version de excel
+
+no se inizialido connection string
+
+Create an SSIS package for the data import from multiple Excel files
+Error: No se ha inicializado la propiedad ConnectionString
+
+choose a destination : elegir el destino
+
+microsoft ace oleb 12.0
+https://www.microsoft.com/es-cl/download/confirmation.aspx?id=13255
+
+se llama access database engine : es la version de 32 bits
+
+microsoft.ace.oledb.12.0 64 bits
+
+Componente redistribuible del motor de base de datos de Microsoft Access 2016
+https://www.microsoft.com/es-es/download/details.aspx?id=54920
+
+
+la tabla externa no tiene no tiene el formato especificado : no es el archivo excel del año 97-2003
+
+cuando abre la ruta del documento excel 
+la version de excel se cambia automatico
+
+seleccionar autenticacion con windows : y logra funcionar
+
+ejemplo
+17 rows transfered
+
+SELECT * FROM `Hoja2$`
+
+[dbo].[Hoja1$]
+si aparece en rojo es el mismo error que en la vez anterior
+le falta el create al principio
+
+USE [master]
+GO
+
+/****** Object:  Table [dbo].[Hoja1$]    Script Date: 12/04/2023 13:29:50 ******/
+SET ANSI_NULLS ON
+GO
+
+SET QUOTED_IDENTIFIER ON
+GO
+
+CREATE TABLE [dbo].[Hoja1$](
+	[nombre] [nvarchar](255) NULL,
+	[apellido] [nvarchar](255) NULL,
+	[pais] [nvarchar](255) NULL,
+	[F4] [nvarchar](255) NULL,
+	[F5] [nvarchar](255) NULL
+) ON [PRIMARY]
+GO
+
+
+select * from dbo.Hoja1$
+
+las tabla de excel se importan en la base de datos master 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
