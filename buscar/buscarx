@@ -1,0 +1,60 @@
+=BUSCARX(Hoja1!A2;Hoja1!A:A;Hoja1!A:A)
+
+permite buscar el valor y no volver a escribirlo en otra hoja
+
+sql server create a database
+
+1 In Object Explorer, connect 
+2 In Object Explorer, connect 
+sql server create table
+
+click derecho en la base de datos new query
+los errores se marcan en rojo
+
+
+CREATE TABLE stores(
+store_id int primary key
+);
+
+
+CREATE TABLE visits (
+    visit_id INT PRIMARY KEY IDENTITY (1, 1),
+    first_name VARCHAR (50) NOT NULL,
+    last_name VARCHAR (50) NOT NULL,
+    visited_at DATETIME,
+    phone VARCHAR(20),
+    store_id INT NOT NULL,
+    FOREIGN KEY (store_id) REFERENCES stores (store_id)
+);
+
+Commands completed successfully.
+Completion time: 2023-04-12T09:55:37.0930580-04:00
+
+aparece como dbo.stores
+             dbo.visits
+             
+excel connect to sql server
+
+https://learn.microsoft.com/en-us/azure/azure-sql/database/connect-excel?view=azuresql
+
+click derecho en la base de datos principal
+server name : DESKTOP-704IVQL
+
+nombre descriptivo de la conexion : SqlServer DESKTOP-704IVQL 
+nombre de la base de datos : apretar en la lista debiera aparacer todas las bases de datos
+
+crear una tablas vacias que no tienen insert into todavia
+
+correcto se han tranferido 0 filas
+
+
+
+
+
+
+
+
+ 
+ 
+
+
