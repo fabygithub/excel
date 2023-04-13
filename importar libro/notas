@@ -23,3 +23,19 @@ la carpeta
 
 se pueden aplicar filtros
 si se borra el source los valores saldran en blanco
+
+power query se carga muchas veces el mismo archivo
+
+Cómo cambiar la configuración de Power Query en el cuadro Opciones de consulta
+quitar duplicados
+
+porque power query importar valores en blanco
+
+si la tabla no tiene encabezados se agrega
+si tiene se usa la primera fila
+
+juntar todos los arhivos en una carpeta
+
+
+
+
