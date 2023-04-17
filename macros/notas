@@ -1,0 +1,25 @@
+VBA - Trabajar con libros de trabajo (El objeto Workbook)
+VBA Find to search entire Workbook
+Fast Excel Search on Multiple Workbooks - VBA Macros
+
+error se esperaba separador = puede ser que falte un parentesis
+
+https://www.youtube.com/watch?v=JiAYngRcN0s&ab_channel=ExcelJunction
+
+Sub juntar()
+   Path = "C:\Users\USUARIO\Desktop\fabi\esval\ejercicio\pruebas\reportes\consolidar\"
+   Filename = Dir(Path & "*.xls")
+   Do While Filename <> ""
+   Workbooks.Open Filename:=Path & Filename, ReadOnly:=True
+   For Each Sheet In ActiveWorkbook.Sheets
+   Sheet.Copy After:=ThisWorkbook.Sheets(1)
+   Next Sheet
+   Workbooks(Filename).Close
+   Filename = Dir()
+   Loop
+   
+End Sub
+
+
+
+
