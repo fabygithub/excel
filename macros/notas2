@@ -75,6 +75,23 @@ ActiveSheet.Name = "Test"
 
 End Sub
 
+'se crea una copia despues del original
+
+Sub copiar()
+
+ 
+ Dim Ws As Worksheet
+ Set Ws = Worksheets("Ejemplo")
+ Ws.Copy After:=Sheets("Ejemplo")
+ 
+End Sub
+
+
+
+
+
+
+
 
 
 
