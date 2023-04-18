@@ -2,6 +2,51 @@ Excel VBA - Copy worksheet to a new workbook and rename
 https://www.youtube.com/watch?v=h6PXEf3NJnI&ab_channel=AhSingTV
 
 
+https://www.wallstreetmojo.com/vba-rename-sheet/#:~:text=Renaming%20sheets%20in%20Excel%20one,%3D%20%E2%80%9CNew%20Sheet%20name.%E2%80%9D
+
+de repente arroja error pero igual se ejecuta
+
+el subindece fuera del intervalo
+no se encuentra el subindice lo que esta en parentesis ()
+
+Sub juntar2()
+
+  Dim Ws As Worksheet
+  Set Ws = Worksheets("New Sheet2")
+  Ws.Name = "New Sheet3"
+
+End Sub
+
+crear una copia viculada excel
+excel vba filename
+
+excel vba set workbook name
+excel vba set worksheet name
+excel vba get worksheet name
+
+https://www.automateexcel.com/vba/rename-sheet
+
+Sub juntar3()
+   MsgBox ActiveSheet.Name
+End Sub
+
+Declaring variable workbook / Worksheet vba
+excel vba activesheet variable
+How to declare an Active Worksheet in a variable?
+
+https://stackoverflow.com/questions/30466233/how-to-declare-an-active-worksheet-in-a-variable
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
