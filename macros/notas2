@@ -35,6 +35,49 @@ excel vba activesheet variable
 How to declare an Active Worksheet in a variable?
 
 https://stackoverflow.com/questions/30466233/how-to-declare-an-active-worksheet-in-a-variable
+activesheet.name variable
+
+Store Current Sheet Name As Variable - Excel General
+https://forum.ozgrid.com/forum/index.php?thread/82720-store-current-sheet-name-as-variable/
+
+
+'guardar el nombre del archivo en una variable
+
+Sub juntar3()
+    'MsgBox ActiveSheet.Name
+     Dim strSheetName As String
+     strSheetName = ActiveSheet.Name
+     
+     MsgBox strSheetName
+     
+End Sub
+
+set name worksheet
+rename worksheet
+
+explicacion
+linea
+
+'se cambia el nombre pero no funciona
+Sheet.Name = "example"
+
+'copy worksheet and rename vba
+
+probar aparte 
+despues juntar
+
+'copia y renombra
+
+Sub juntar4()
+
+Sheets("Hoja1").Copy after:=Sheets("Hoja1")
+ActiveSheet.Name = "Test"
+
+End Sub
+
+
+
+
 
 
 
