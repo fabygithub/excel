@@ -27,6 +27,31 @@ https://www.ablebits.com/office-addins-blog/merge-multiple-excel-files-into-one/
 
 
 vba copy worksheet to another workbook
+Copy Sheet from Another Workbook Without Opening it
+
+'esta parte lo que hace es mover una hoja hacia el final'
+Sheets("myNewSheet").Move After:=Sheets(Sheets.Count)
+
+'mover las hojas al principio
+Sheets("Hoja3").Move Before:=Sheets(1)
+
+'cambiar el nombre de la hoja actual
+ActiveSheet.Name = "Hoja3"
+
+'significa la hoja 1
+Sheets(1)
+
+ 'se mueve aun libro nuevo
+ Sheets("Hoja1").Move
+ 
+ 'copiar varias hojas
+ Sheets(Array("Sheet2", "Sheet3", "Sheet4", "Sheet5")).Copy
+ 
+ 
+ 
+ 
+  
+
 
 
 
