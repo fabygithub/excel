@@ -47,6 +47,36 @@ Sheets(1)
  'copiar varias hojas
  Sheets(Array("Sheet2", "Sheet3", "Sheet4", "Sheet5")).Copy
  
+ Sheets("List-1")
+ se refiere a la hoja no al libro
+ 
+ 'para que funcione el libro debe estar abierto
+ ' y en el libro destination debe estar en la seleccionada la hoja1
+ ' en los 2 libros debe tener el mismo nombre de la hoja
+ Sheets("Hoja1").Copy After:=Workbooks("Destination.xlsx").Sheets(Sheets.Count)
+ 
+ si apunta a muchos libros debiera
+ copiar la hojas
+ 
+ para eso el libro auxiliar debe estar abierto
+ copy a workbook in another workbook
+ 
+ merge workbooks in excel without power query
+ 
+ how to update 2 excel files simultaneously
+ formulas propias
+ =A1+10
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
  
  
  
