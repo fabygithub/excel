@@ -127,7 +127,12 @@ si no funciona el copiar y pegar hacer la funcion manual
 ='[Control_obras_normalizado-.xlsx]Contratos'!$A1:$BO20000
 
 // de todas formas los rangos se pueden ir cambiando
+// si aumento mucho se pueden cargar muchos sub procesos 
+// y quedaria muy lento el archivo excel
 ='[Control_obras_normalizado-.xlsx]Contratos'!$A1:$BO10000
+
+
+
 
 
 
