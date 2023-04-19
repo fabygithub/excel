@@ -74,6 +74,41 @@ Sheets(1)
  tambien se puede hacer con una referencia
  
  
+ //fuera de rango
+ //debe ser porque la hoja no existe
+ ='[auxiliar.xlsx]Sheet1'!A$3
+ 
+ //devuelve el valor de la celda
+ =[auxiliar.xlsx]Hoja1!A$3
+ 
+ //devuelve el valor de la columna
+ =[auxiliar.xlsx]Hoja1!A$1
+ 
+ //hay que quitarle el $ para poder arrastrar
+ =[auxiliar.xlsx]Hoja1!A1
+ 
+ //excel reference with range
+ //de esa forma se trae todas las columnas
+ =[auxiliar.xlsx]Hoja1!A:A
+ 
+// excel reference worksheet
+// How to create external reference in Excel to refer to another sheet or workbook
+// lo otro seria crear un nombre con el rango que uno quiere por ejemplo
+=nombre
+
+
+
+
+
+
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
  
  
  
