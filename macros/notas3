@@ -5,3 +5,7 @@ administrar nombres con otro libro
 excel last letter columns
 //ver hasta que letra llega las columnas
 
+Exceso de subprocesos simultáneos: Excel identifica los cálculos que están en una cadena 
+y los calcula en varios subprocesos. Dicho esto, Excel solo admite 1024 subprocesos 
+simultáneos en una sola hoja. Si excede este número, Excel no podrá realizar el cálculo.
+
