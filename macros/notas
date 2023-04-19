@@ -111,6 +111,26 @@ excel desbordamiento mas alla de los bordes de la hoja de calculo
 excel row limit increase
 excel row overflow
 
+cuando marca ref puede ser que la hoja no existe
+si encuentra nada es porque el libro quizas no exista
+si no funciona el copiar y pegar hacer la funcion manual
+
+='[Control_obras_normalizado-.xlsx]Contratos'!$A:$A
+='[Control_obras_normalizado-.xlsx]Contratos'!$B:$B
+
+//saca 2000 filas de la hoja
+='[Control_obras_normalizado-.xlsx]Contratos'!$A1:$A2000
+
+//si se queda pegado excel intertar escapar
+='[Control_obras_normalizado-.xlsx]Contratos'!$A1:$BO2000
+
+='[Control_obras_normalizado-.xlsx]Contratos'!$A1:$BO20000
+
+// de todas formas los rangos se pueden ir cambiando
+='[Control_obras_normalizado-.xlsx]Contratos'!$A1:$BO10000
+
+
+
 
 
 
