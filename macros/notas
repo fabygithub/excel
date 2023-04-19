@@ -131,6 +131,23 @@ si no funciona el copiar y pegar hacer la funcion manual
 // y quedaria muy lento el archivo excel
 ='[Control_obras_normalizado-.xlsx]Contratos'!$A1:$BO10000
 
+// create a dynamic table with several worksheets
+Consolidating data
+combine data
+different sources
+one report
+
+each of your regional offices
+
+corporate expense report
+sales totals
+and averages
+current inventory levels
+highest selling products
+
+se puede solucionar en las opciones de pegado
+pegar con formula
+pegar solo valores
 
 
 
