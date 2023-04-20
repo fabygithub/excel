@@ -1,0 +1,24 @@
+
+https://www.simonsezit.com/article/nested-vlookup/#:~:text=All%20you%20have%20to%20do,of%20the%20second%20VLOOKUP%20formula.&text=Here%2C%20the%20inner%20VLOOKUP%20looks,That's%20all%20folks!
+
+HOW TO USE NESTED VLOOKUP IN EXCEL?
+
+=VLOOKUP(VLOOKUP(K9,I3:J5,2),L3:M5,2)
+
+se hace la funcion por cara columna
+
+nombre buscarx 
+edad   buscarx
+
+=SI(I5="si";SI(LARGO(BUSCARX(Hoja1!B5;Hoja1!B:B;Hoja1!B:B))=0;"";BUSCARX(Hoja1!B5;Hoja1!B:B;Hoja1!B:B));"")
+
+
+
+
+
+
+
+
+
+
+
