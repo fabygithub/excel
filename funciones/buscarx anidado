@@ -66,10 +66,55 @@ normalizado       administrativo
  
 =SI([Ctrl_Administrativo_VF.xlsx]SOLICITUDES!$AC$1272="si";SI(LARGO(BUSCARX([Ctrl_Administrativo_VF.xlsx]SOLICITUDES!$C1282;[Ctrl_Administrativo_VF.xlsx]SOLICITUDES!$C:$C;[Ctrl_Administrativo_VF.xlsx]SOLICITUDES!$C:$C))=0;"";BUSCARX([Ctrl_Administrativo_VF.xlsx]SOLICITUDES!$C1282;[Ctrl_Administrativo_VF.xlsx]SOLICITUDES!$C:$C;[Ctrl_Administrativo_VF.xlsx]SOLICITUDES!$C:$C));"")
 
+=SI([Ctrl_Administrativo_VF.xlsx]SOLICITUDES!$AC$1272="si";SI(LARGO(BUSCARX([Ctrl_Administrativo_VF.xlsx]SOLICITUDES!$C1282;[Ctrl_Administrativo_VF.xlsx]SOLICITUDES!$C:$C;[Ctrl_Administrativo_VF.xlsx]SOLICITUDES!$C:$C))=0;"";BUSCARX([Ctrl_Administrativo_VF.xlsx]SOLICITUDES!$C1282;[Ctrl_Administrativo_VF.xlsx]SOLICITUDES!$C:$C;[Ctrl_Administrativo_VF.xlsx]SOLICITUDES!$C:$C));"")
  
+
+
+// hay que cambiar en 2 lados
+=SI([Ctrl_Administrativo_VF.xlsx]SOLICITUDES!$AC$1280="si";SI(LARGO(BUSCARX([Ctrl_Administrativo_VF.xlsx]SOLICITUDES!$C1280;[Ctrl_Administrativo_VF.xlsx]SOLICITUDES!$C:$C;[Ctrl_Administrativo_VF.xlsx]SOLICITUDES!$C:$C))=0;"";BUSCARX([Ctrl_Administrativo_VF.xlsx]SOLICITUDES!$C1282;[Ctrl_Administrativo_VF.xlsx]SOLICITUDES!$C:$C;[Ctrl_Administrativo_VF.xlsx]SOLICITUDES!$C:$C));"")
  
- 
- 
+SI([Ctrl_Administrativo_VF.xlsx]SOLICITUDES!$AC$1280="si";SI(LARGO(BUSCARX([Ctrl_Administrativo_VF.xlsx]SOLICITUDES!$C1280;[Ctrl_Administrativo_VF.xlsx]SOLICITUDES!$C:$C;[Ctrl_Administrativo_VF.xlsx]SOLICITUDES!$C:$C))=0;"";BUSCARX([Ctrl_Administrativo_VF.xlsx]SOLICITUDES!$C1282;[Ctrl_Administrativo_VF.xlsx]SOLICITUDES!$C:$C;[Ctrl_Administrativo_VF.xlsx]SOLICITUDES!$C:$C));"")
+
+
+//apretar la flecha hacia abajo para ver la formula completa
+//!$AC$1282
+//!$C1282
+
+
+
+=SI([Ctrl_Administrativo_VF.xlsx]SOLICITUDES!$AC$1282="si";SI(LARGO(BUSCARX([Ctrl_Administrativo_VF.xlsx]SOLICITUDES!$C1282;[Ctrl_Administrativo_VF.xlsx]SOLICITUDES!$C:$C;[Ctrl_Administrativo_VF.xlsx]SOLICITUDES!$C:$C))=0;"";BUSCARX([Ctrl_Administrativo_VF.xlsx]SOLICITUDES!$C1282;[Ctrl_Administrativo_VF.xlsx]SOLICITUDES!$C:$C;[Ctrl_Administrativo_VF.xlsx]SOLICITUDES!$C:$C));"")
+
+
+//!$AC1282="si"
+
+=SI([Ctrl_Administrativo_VF.xlsx]SOLICITUDES!$AC$1282="si";SI(LARGO(BUSCARX([Ctrl_Administrativo_VF.xlsx]SOLICITUDES!$C1282;[Ctrl_Administrativo_VF.xlsx]SOLICITUDES!$C:$C;[Ctrl_Administrativo_VF.xlsx]SOLICITUDES!$C:$C))=0;"";BUSCARX([Ctrl_Administrativo_VF.xlsx]SOLICITUDES!$C1282;[Ctrl_Administrativo_VF.xlsx]SOLICITUDES!$C:$C;[Ctrl_Administrativo_VF.xlsx]SOLICITUDES!$C:$C));"")
+
+
+//funcion correcta
+=SI([Ctrl_Administrativo_VF.xlsx]SOLICITUDES!$AC1284="si";SI(LARGO(BUSCARX([Ctrl_Administrativo_VF.xlsx]SOLICITUDES!$C1284;[Ctrl_Administrativo_VF.xlsx]SOLICITUDES!$C:$C;[Ctrl_Administrativo_VF.xlsx]SOLICITUDES!$C:$C))=0;"";BUSCARX([Ctrl_Administrativo_VF.xlsx]SOLICITUDES!$C1284;[Ctrl_Administrativo_VF.xlsx]SOLICITUDES!$C:$C;[Ctrl_Administrativo_VF.xlsx]SOLICITUDES!$C:$C));"")
+
+//$AC$1282="si" 
+//fijo
+
+
+//valor fijo
+=SI([Ctrl_Administrativo_VF.xlsx]SOLICITUDES!$AC$1282="si";SI(LARGO(BUSCARX([Ctrl_Administrativo_VF.xlsx]SOLICITUDES!$C1282;[Ctrl_Administrativo_VF.xlsx]SOLICITUDES!$C:$C;[Ctrl_Administrativo_VF.xlsx]SOLICITUDES!$C:$C))=0;"";BUSCARX([Ctrl_Administrativo_VF.xlsx]SOLICITUDES!$C1282;[Ctrl_Administrativo_VF.xlsx]SOLICITUDES!$C:$C;[Ctrl_Administrativo_VF.xlsx]SOLICITUDES!$C:$C));"")
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
  
  
  
