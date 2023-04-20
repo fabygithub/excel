@@ -34,6 +34,57 @@ edad   buscarx
 =SI(LARGO(BUSCARX([Ctrl_Administrativo_VF.xlsx]SOLICITUDES!$C1282;[Ctrl_Administrativo_VF.xlsx]SOLICITUDES!$C:$C;[Ctrl_Administrativo_VF.xlsx]SOLICITUDES!$C:$C))=0;"";BUSCARX([Ctrl_Administrativo_VF.xlsx]SOLICITUDES!$C1282;[Ctrl_Administrativo_VF.xlsx]SOLICITUDES!$C:$C;[Ctrl_Administrativo_VF.xlsx]SOLICITUDES!$C:$C))
 
 
+//si selecciona la celda en verde y pego la formula me queda la escritura de la formula
+
+
+//fijarse que esta parte tiene que aumentar
+!$C1281;
+
+despues solamente cambia la letra
+
+
+contratos 
+
+normalizado       administrativo
+ a                       b
+ b                       j
+ c                       c
+ e                       e
+ f                       g
+ u                       o
+ v                       p
+ ab                      k
+                         ak o ac (normalizado)
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+
+
+
+
+
 
 
 
