@@ -1,0 +1,48 @@
+find and replace in excel
+formula for find and replace in excel
+Find if a Value is Contained in a Specific Cell
+COUNTIF with multiple values in one cell
+How to check if cell contains one of several values in Excel?
+extract substring in excel
+How do I return text from a find function in Excel?
+if substring excel
+Cell contains specific text
+
+=IF(ISNUMBER(SEARCH(substring,A1)), "Yes", "No")
+A2<>A2
+A2<>""
+
+excel if function with find
+
+hay que meter la otra funcion 
+en la prueba logica
+
+=SI(ENCONTRAR("bacon";A2)<>"";"si";"no")
+=SI(ENCONTRAR("102";A2)<>" ";"si";"no")
+
+=SI(ENCONTRAR("103";A2)<>" ";"si";"no")
+
+excel #value replace with blank
+=SI.ERROR(SI(ENCONTRAR("110";A2)<>" ";"si";"no");"no")
+
+//de esta forma se puede corregir el valor error
+=SI.ERROR(SI(ENCONTRAR("110";A2)<>" ";"si";"no");"no")
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
