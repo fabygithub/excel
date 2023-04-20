@@ -104,6 +104,27 @@ SI([Ctrl_Administrativo_VF.xlsx]SOLICITUDES!$AC$1280="si";SI(LARGO(BUSCARX([Ctrl
 //formula fija
 =SI([Ctrl_Administrativo_VF.xlsx]SOLICITUDES!$AC1282="si";SI(LARGO(BUSCARX([Ctrl_Administrativo_VF.xlsx]SOLICITUDES!$C1282;[Ctrl_Administrativo_VF.xlsx]SOLICITUDES!$C:$C;[Ctrl_Administrativo_VF.xlsx]SOLICITUDES!$C:$C))=0;"";BUSCARX([Ctrl_Administrativo_VF.xlsx]SOLICITUDES!$C1282;[Ctrl_Administrativo_VF.xlsx]SOLICITUDES!$C:$C;[Ctrl_Administrativo_VF.xlsx]SOLICITUDES!$C:$C));"")
 
+//los 3 numeros tienen que coincidir
+=SI([Ctrl_Administrativo_VF.xlsx]SOLICITUDES!$AC1282="si";SI(LARGO(BUSCARX([Ctrl_Administrativo_VF.xlsx]SOLICITUDES!$B1282;[Ctrl_Administrativo_VF.xlsx]SOLICITUDES!$B:$B;[Ctrl_Administrativo_VF.xlsx]SOLICITUDES!$B:$B))=0;"";BUSCARX([Ctrl_Administrativo_VF.xlsx]SOLICITUDES!$B1282;[Ctrl_Administrativo_VF.xlsx]SOLICITUDES!$B:$B;[Ctrl_Administrativo_VF.xlsx]SOLICITUDES!$B:$B));"")
+
+//volver a escribir
+=SI([Ctrl_Administrativo_VF.xlsx]SOLICITUDES!$AC1282="si";SI(LARGO(BUSCARX([Ctrl_Administrativo_VF.xlsx]SOLICITUDES!$B1282;[Ctrl_Administrativo_VF.xlsx]SOLICITUDES!$B:$B;[Ctrl_Administrativo_VF.xlsx]SOLICITUDES!$B:$B))=0;"";BUSCARX([Ctrl_Administrativo_VF.xlsx]SOLICITUDES!$B1282;[Ctrl_Administrativo_VF.xlsx]SOLICITUDES!$B:$B;[Ctrl_Administrativo_VF.xlsx]SOLICITUDES!$B:$B));"")
+
+//cambiar solo la letra de la columna
+=SI([Ctrl_Administrativo_VF.xlsx]SOLICITUDES!$AC1282="si";SI(LARGO(BUSCARX([Ctrl_Administrativo_VF.xlsx]SOLICITUDES!$J1282;[Ctrl_Administrativo_VF.xlsx]SOLICITUDES!$J:$J;[Ctrl_Administrativo_VF.xlsx]SOLICITUDES!$J:$J))=0;"";BUSCARX([Ctrl_Administrativo_VF.xlsx]SOLICITUDES!$J1282;[Ctrl_Administrativo_VF.xlsx]SOLICITUDES!$J:$J;[Ctrl_Administrativo_VF.xlsx]SOLICITUDES!$J:$J));"")
+
+=SI([Ctrl_Administrativo_VF.xlsx]SOLICITUDES!$AC1284="si";SI(LARGO(BUSCARX([Ctrl_Administrativo_VF.xlsx]SOLICITUDES!$C1284;[Ctrl_Administrativo_VF.xlsx]SOLICITUDES!$C:$C;[Ctrl_Administrativo_VF.xlsx]SOLICITUDES!$C:$C))=0;"";BUSCARX([Ctrl_Administrativo_VF.xlsx]SOLICITUDES!$C1284;[Ctrl_Administrativo_VF.xlsx]SOLICITUDES!$C:$C;[Ctrl_Administrativo_VF.xlsx]SOLICITUDES!$C:$C));"")
+
+//si se ejecuta el si padre 
+//se ejecuta el si hijo
+//si no solo muestra ""
+
+//FORMULA funcionando
+=SI([Ctrl_Administrativo_VF.xlsx]SOLICITUDES!$AC1287="si";SI(LARGO(BUSCARX([Ctrl_Administrativo_VF.xlsx]SOLICITUDES!$K1287;[Ctrl_Administrativo_VF.xlsx]SOLICITUDES!$K:$K;[Ctrl_Administrativo_VF.xlsx]SOLICITUDES!$K:$K))=0;"";BUSCARX([Ctrl_Administrativo_VF.xlsx]SOLICITUDES!$K1287;[Ctrl_Administrativo_VF.xlsx]SOLICITUDES!$K:$K;[Ctrl_Administrativo_VF.xlsx]SOLICITUDES!$K:$K));"")
+
+//las listas sirven para no ingresar datos erroneos
+
+
 
 
 
