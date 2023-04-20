@@ -39,8 +39,24 @@ I2="si"
 
 =SI(I2="si";SI(LARGO(BUSCARX(Hoja1!A1;Hoja1!A:A;Hoja1!A:A))=0;"";BUSCARX(Hoja1!A1;Hoja1!A:A;Hoja1!A:A));"")
 
+//si no encuntra el valor puede que este mal el buscarx 
+ejemplo 
+Hoja1!A10
+
+//tambien el problema es debe a que se agrega un valor en la hoja hija por eso no se actualiza
+
+=SI(I2="si";SI(LARGO(BUSCARX(Hoja1!A2;Hoja1!A:A;Hoja1!A:A))=0;"";BUSCARX(Hoja1!A2;Hoja1!A:A;Hoja1!A:A));"")
+
+=SI(I2="si";SI(LARGO(BUSCARX(Hoja1!A2;Hoja1!A:A;Hoja1!A:A))=0;"";BUSCARX(Hoja1!A2;Hoja1!A:A;Hoja1!A:A));"")
+
+// puede entrar el normalizado aca
+
 
 https://www.got-it.ai/solutions/excel-chat/excel-tutorial/lookup/solutions-when-your-excel-lookup-returns-0
+
+=SI(I3="si";SI(LARGO(BUSCARX(Hoja1!A3;Hoja1!A:A;Hoja1!A:A))=0;"";BUSCARX(Hoja1!A3;Hoja1!A:A;Hoja1!A:A));"")
+
+=SI(I11="si";SI(LARGO(BUSCARX(Hoja1!A11;Hoja1!A:A;Hoja1!A:A))=0;"";BUSCARX(Hoja1!A11;Hoja1!A:A;Hoja1!A:A));"")
 
 
 
