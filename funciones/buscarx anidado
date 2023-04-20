@@ -13,6 +13,25 @@ edad   buscarx
 =SI(I5="si";SI(LARGO(BUSCARX(Hoja1!B5;Hoja1!B:B;Hoja1!B:B))=0;"";BUSCARX(Hoja1!B5;Hoja1!B:B;Hoja1!B:B));"")
 
 
+//buscar desde otro libro
+=BUSCARX([Ctrl_Administrativo_VF.xlsx]SOLICITUDES!$C1282;[Ctrl_Administrativo_VF.xlsx]SOLICITUDES!$C:$C;[Ctrl_Administrativo_VF.xlsx]SOLICITUDES!$C:$C)
+
+=BUSCARX([Ctrl_Administrativo_VF.xlsx]SOLICITUDES!$C1282;[Ctrl_Administrativo_VF.xlsx]SOLICITUDES!$C:$C;[Ctrl_Administrativo_VF.xlsx]SOLICITUDES!$C:$C)
+
+
+
+=LARGO(BUSCARX([Ctrl_Administrativo_VF.xlsx]SOLICITUDES!$C1282;[Ctrl_Administrativo_VF.xlsx]SOLICITUDES!$C:$C;[Ctrl_Administrativo_VF.xlsx]SOLICITUDES!$C:$C))
+
+=LARGO(BUSCARX([Ctrl_Administrativo_VF.xlsx]SOLICITUDES!$C1282;[Ctrl_Administrativo_VF.xlsx]SOLICITUDES!$C:$C;[Ctrl_Administrativo_VF.xlsx]SOLICITUDES!$C:$C))
+
+
+=SI(LARGO(BUSCARX([Ctrl_Administrativo_VF.xlsx]SOLICITUDES!$C1282;[Ctrl_Administrativo_VF.xlsx]SOLICITUDES!$C:$C;[Ctrl_Administrativo_VF.xlsx]SOLICITUDES!$C:$C))=0;"";BUSCARX([Ctrl_Administrativo_VF.xlsx]SOLICITUDES!$C1282;[Ctrl_Administrativo_VF.xlsx]SOLICITUDES!$C:$C;[Ctrl_Administrativo_VF.xlsx]SOLICITUDES!$C:$C))
+
+=SI(LARGO(BUSCARX([Ctrl_Administrativo_VF.xlsx]SOLICITUDES!$C1282;[Ctrl_Administrativo_VF.xlsx]SOLICITUDES!$C:$C;[Ctrl_Administrativo_VF.xlsx]SOLICITUDES!$C:$C))=0;"";BUSCARX([Ctrl_Administrativo_VF.xlsx]SOLICITUDES!$C1282;[Ctrl_Administrativo_VF.xlsx]SOLICITUDES!$C:$C;[Ctrl_Administrativo_VF.xlsx]SOLICITUDES!$C:$C))
+
+=SI(LARGO(BUSCARX([Ctrl_Administrativo_VF.xlsx]SOLICITUDES!$C1282;[Ctrl_Administrativo_VF.xlsx]SOLICITUDES!$C:$C;[Ctrl_Administrativo_VF.xlsx]SOLICITUDES!$C:$C))=0;"";BUSCARX([Ctrl_Administrativo_VF.xlsx]SOLICITUDES!$C1282;[Ctrl_Administrativo_VF.xlsx]SOLICITUDES!$C:$C;[Ctrl_Administrativo_VF.xlsx]SOLICITUDES!$C:$C))
+
+=SI(LARGO(BUSCARX([Ctrl_Administrativo_VF.xlsx]SOLICITUDES!$C1282;[Ctrl_Administrativo_VF.xlsx]SOLICITUDES!$C:$C;[Ctrl_Administrativo_VF.xlsx]SOLICITUDES!$C:$C))=0;"";BUSCARX([Ctrl_Administrativo_VF.xlsx]SOLICITUDES!$C1282;[Ctrl_Administrativo_VF.xlsx]SOLICITUDES!$C:$C;[Ctrl_Administrativo_VF.xlsx]SOLICITUDES!$C:$C))
 
 
 
