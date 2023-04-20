@@ -1,0 +1,52 @@
+Solutions When Your Excel Lookup Returns 0 - Got It AI
+Convert 0 to Blank Cell when Excel Lookup Returns 0 for Empty Cell
+
+excel len()
+largo()
+
+=LARGO(A1)
+=SI(A1=A1;"si";"no")
+=BUSCARX(Hoja1!A1;Hoja1!A:A;Hoja1!A:A)
+
+la funcion padre manda
+ingresar la funcion hija como argumento
+
+a la funcion super padre por ejemplo if()
+se pueden agregar por ejemplo 2 funciones
+se debe ingresar sin el igual
+
+por ejemplo 
+LARGO(BUSCARX(Hoja1!A1;Hoja1!A:A;Hoja1!A:A))=0
+
+tambien en la funcion if()
+si es verdadero puede arrojar un valor por ejemplo " "
+
+o tambien puede arrojar una funcion si el si() se cumple si el =
+BUSCARX(Hoja1!A1;Hoja1!A:A;Hoja1!A:A)
+
+=SI(LARGO(BUSCARX(Hoja1!A1;Hoja1!A:A;Hoja1!A:A))=0;"";BUSCARX(Hoja1!A1;Hoja1!A:A;Hoja1!A:A))
+
+//si uno arrastra la hoja cambie esto
+Hoja1!A3
+
+// si arroja nombre se puede agregar " "
+I2="si"
+
+// por ejemplo si el valor del si() el falso 
+// para cambiar el valor falso se puede poner ""
+
+=SI(I2="si";"si";"")
+
+=SI(I2="si";SI(LARGO(BUSCARX(Hoja1!A1;Hoja1!A:A;Hoja1!A:A))=0;"";BUSCARX(Hoja1!A1;Hoja1!A:A;Hoja1!A:A));"")
+
+
+https://www.got-it.ai/solutions/excel-chat/excel-tutorial/lookup/solutions-when-your-excel-lookup-returns-0
+
+
+
+
+
+
+
+
+
