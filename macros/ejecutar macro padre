@@ -1,0 +1,17 @@
+How to run a macro from a macro (from another workbook)
+
+Sub Juntar()
+'
+' Juntar Macro
+'
+
+'
+    Range("A1").Select
+    Windows("juntar libros.xlsm").Activate
+    Application.Run "'juntar libros.xlsm'!Macro1"
+    Windows("super macro.xlsm").Activate
+End Sub
+
+
+
+
