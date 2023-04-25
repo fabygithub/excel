@@ -1,0 +1,38 @@
+crear una lista desde otro libro usan macros con visual basic
+Sub Macro1()
+'
+' Macro1 Macro
+'
+
+'
+    Application.CutCopyMode = False
+    ' crear un nombre
+    ' apuntando hacia otro libro
+    ActiveWorkbook.Names.Add Name:="alimentos", RefersToR1C1:= _
+        "=[listasmacros.xlsm]Hoja1!C3"
+    ActiveWorkbook.Names("alimentos").Comment = ""
+    'cuando se selecciona una hoja
+    Windows("listasmacros.xlsm").Activate
+    Windows("lista2macros.xlsm").Activate
+    'se crea otro nombre a partir del primer nombre creado
+    ActiveWorkbook.Names.Add Name:="alimentos2", RefersToR1C1:="=alimentos"
+    ActiveWorkbook.Names("alimentos2").Comment = ""
+    'se crea la lista seleccionando todos los datos
+    Columns("A:A").Select
+    With Selection.Validation
+        .Delete
+        'usando como fuente de datos el nombre alimentos2
+        .Add Type:=xlValidateList, AlertStyle:=xlValidAlertStop, Operator:= _
+        xlBetween, Formula1:="=alimentos2"
+        .IgnoreBlank = True
+        .InCellDropdown = True
+        .InputTitle = ""
+        .ErrorTitle = ""
+        .InputMessage = ""
+        .ErrorMessage = ""
+        .ShowInput = True
+        .ShowError = True
+    End With
+    Range("A4").Select
+End Sub
+
