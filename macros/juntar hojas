@@ -1,0 +1,14 @@
+Sub Macro1()
+'
+' Macro1 Macro
+    Sheets("diseño").Select
+    Range("A2:C3").Select
+    Selection.Copy
+    Sheets("obras").Select
+    Range("A4").Select
+    ActiveSheet.Paste
+    Range("F6").Select
+End Sub
+
+
+
