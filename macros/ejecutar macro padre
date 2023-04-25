@@ -13,5 +13,17 @@ Sub Juntar()
 End Sub
 
 
+para que funcione hay que activar el otro libro
+
+Sub juntar()
+     Windows("juntar libros.xlsm").Activate
+    Application.Run "'juntar libros.xlsm'!Macro1"
+End Sub
+
+vba execute macro in another workbook without open
+guardarla como personal macro workbook
+
+
+
 
 
