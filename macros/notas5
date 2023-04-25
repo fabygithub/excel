@@ -1,0 +1,31 @@
+crear una lista a partir de una columna
+
+Sub Macro1()
+'
+' Macro1 Macro
+'
+
+'
+    'Columns("A:A").Select
+    Columns("B:B").Select
+    With Selection.Validation
+        .Delete
+        .Add Type:=xlValidateList, AlertStyle:=xlValidAlertStop, Operator:= _
+         xlBetween, Formula1:="=$B:$B"
+         'xlBetween , Formula1:="=$A:$A"
+        .IgnoreBlank = True
+        .InCellDropdown = True
+        .InputTitle = ""
+        .ErrorTitle = ""
+        .InputMessage = ""
+        .ErrorMessage = ""
+        .ShowInput = True
+        .ShowError = True
+    End With
+End Sub
+
+
+
+
+
+
