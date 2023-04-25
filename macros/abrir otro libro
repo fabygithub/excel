@@ -1,0 +1,16 @@
+una macro que nos permita abrir otro archivo de excel
+
+Sub Juntar()
+'
+' Juntar Macro
+'
+
+'
+'    Range("A1").Select
+'    Windows("juntar libros.xlsm").Activate
+    Application.Run "'juntar libros.xlsm'!Macro1"
+'    Windows("super macro.xlsm").Activate
+End Sub
+
+
+esta macro nos permite ejecutar un macro de otro archivo excel
