@@ -1,0 +1,27 @@
+crear una lista a partir de otra hoja excel 
+
+
+Sub Macro2()
+'
+' Macro2 Macro
+'
+
+'
+    Columns("A:A").Select
+    With Selection.Validation
+        .Delete
+        .Add Type:=xlValidateList, AlertStyle:=xlValidAlertStop, Operator:= _
+        xlBetween, Formula1:="=Hoja1!$A:$A"
+        .IgnoreBlank = True
+        .InCellDropdown = True
+        .InputTitle = ""
+        .ErrorTitle = ""
+        .InputMessage = ""
+        .ErrorMessage = ""
+        .ShowInput = True
+        .ShowError = True
+    End With
+    Range("C3").Select
+End Sub
+
+
