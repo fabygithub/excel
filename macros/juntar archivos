@@ -1,0 +1,31 @@
+create a macro to open an excel file
+
+https://support.microsoft.com/en-us/office/record-a-macro-to-open-specific-workbooks-when-excel-starts-4342eef5-19ee-435a-b401-1817941b24f5
+
+Click File > Open
+
+libro oculto se refiere a que el libro no esta abierto por lo tanto no se puede modificar,tampoco se puede eliminar, pero
+si se puede utilizar sus macros, si se guarda como macro personal.
+
+las macros personales, quedan grabadas como personal.xlsb
+
+mostrar ventanas libros
+hoja de calculo binaria de microsoft excel
+
+How to Use Macros Stored in Personal Macro Workbook?
+
+Doing this would create a new workbook with the name PERSONAL.XLSB and store the macro in this workbook.
+
+macro to search workbooks in excel
+
+
+
+
+
+
+
+
+
+
+
+
