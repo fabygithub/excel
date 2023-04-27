@@ -1,0 +1,20 @@
+https://www.get-digital-help.com/search-all-workbooks-in-a-folder/
+
+Find links (external references) in a workbook // usar la lupa
+
+=[libro1.xlsx]Hoja1!$A$1 //es una prueba
+
+buscar columnas con nombres definidos
+
+libro1.xlsx#mld // de esa manera se puede dirigir a cualquer columna de todos los libros
+                // pero el detalle es que hay que agregar un nombre en el libro padre
+               //  para que el libro hijo pueda encontrarlo
+               
+
+
+
+
+
+
+
+
