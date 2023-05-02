@@ -1,1 +1,5 @@
+=SUSTITUIR(tabla_contratos[[#Totales];[anno_contrato]];tabla_contratos[[#Totales];[anno_contrato]];" "
+
+=SI([Ctrl_Administrativo_VF.xlsm]Solicitudes_Obras!$X874="si";BUSCARX([Ctrl_Administrativo_VF.xlsm]Solicitudes_Obras!$G874;[Ctrl_Administrativo_VF.xlsm]Solicitudes_Obras!$G:$G;[Ctrl_Administrativo_VF.xlsm]Solicitudes_Obras!$G:$G);"")
+
 
