@@ -154,6 +154,8 @@ https://www.howtoexcel.org/show-zero-as-blank/
 =SI([Ctrl_Administrativo_VF.xlsm]Solicitudes_Obras!$X874="si";SI(BUSCARX([Ctrl_Administrativo_VF.xlsm]Solicitudes_Obras!$B874;[Ctrl_Administrativo_VF.xlsm]Solicitudes_Obras!$B:$B;[Ctrl_Administrativo_VF.xlsm]Solicitudes_Obras!$B:$B)="";"";BUSCARX([Ctrl_Administrativo_VF.xlsm]Solicitudes_Obras!$B874;[Ctrl_Administrativo_VF.xlsm]Solicitudes_Obras!$B:$B;[Ctrl_Administrativo_VF.xlsm]Solicitudes_Obras!$B:$B));"")
 
 
+=SI([Ctrl_Administrativo_VF.xlsm]Solicitudes_Obras!$X874="si";SI(BUSCARX([Ctrl_Administrativo_VF.xlsm]Solicitudes_Obras!$E874;[Ctrl_Administrativo_VF.xlsm]Solicitudes_Obras!$E:$E;[Ctrl_Administrativo_VF.xlsm]Solicitudes_Obras!$E:$E)="";"";BUSCARX([Ctrl_Administrativo_VF.xlsm]Solicitudes_Obras!$E874;[Ctrl_Administrativo_VF.xlsm]Solicitudes_Obras!$E:$E;[Ctrl_Administrativo_VF.xlsm]Solicitudes_Obras!$E:$E));"")
+
 
 
 
