@@ -48,7 +48,7 @@ contratos
 
 normalizado       administrativo
  a                       b
- b                       j
+ b                       f
  c                       c
  e                       e
  f                       g
@@ -194,6 +194,23 @@ https://www.howtoexcel.org/show-zero-as-blank/
 
 =SI(SI.ERROR(SI([Ctrl_Administrativo_VF.xlsm]Solicitudes_Obras!$X$874="si";BUSCARX([Ctrl_Administrativo_VF.xlsm]Solicitudes_Obras!$A$874:$AB$874;FILTRAR([Ctrl_Administrativo_VF.xlsm]Solicitudes_Obras!$A$874:$AB$874;{1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1});FILTRAR([Ctrl_Administrativo_VF.xlsm]Solicitudes_Obras!$A$874:$AB$874;{1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1}));"");"")=0;"";SI.ERROR(SI([Ctrl_Administrativo_VF.xlsm]Solicitudes_Obras!$X$874="si";BUSCARX([Ctrl_Administrativo_VF.xlsm]Solicitudes_Obras!$A$874:$AB$874;FILTRAR([Ctrl_Administrativo_VF.xlsm]Solicitudes_Obras!$A$874:$AB$874;{1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1});FILTRAR([Ctrl_Administrativo_VF.xlsm]Solicitudes_Obras!$A$874:$AB$874;{1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1}));"");""))
 
+
+=SI(SI.ERROR(SI([Ctrl_Administrativo_VF.xlsm]Solicitudes_Obras!$X$874="si";BUSCARX([Ctrl_Administrativo_VF.xlsm]Solicitudes_Obras!$A$874:$AB$874;FILTRAR([Ctrl_Administrativo_VF.xlsm]Solicitudes_Obras!$A$874:$AB$874;{1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1});FILTRAR([Ctrl_Administrativo_VF.xlsm]Solicitudes_Obras!$A$874:$AB$874;{1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1}));"");"")=0;"";SI.ERROR(SI([Ctrl_Administrativo_VF.xlsm]Solicitudes_Obras!$X$874="si";BUSCARX([Ctrl_Administrativo_VF.xlsm]Solicitudes_Obras!$A$874:$AB$874;FILTRAR([Ctrl_Administrativo_VF.xlsm]Solicitudes_Obras!$A$874:$AB$874;{1,1,1,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,1});FILTRAR([Ctrl_Administrativo_VF.xlsm]Solicitudes_Obras!$A$874:$AB$874;{1,1,1,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,1}));"");""))
+
+=SI(SI.ERROR(SI([Ctrl_Administrativo_VF.xlsm]Solicitudes_Obras!$X$874="si";BUSCARX([Ctrl_Administrativo_VF.xlsm]Solicitudes_Obras!$A$874:$AB$874;FILTRAR([Ctrl_Administrativo_VF.xlsm]Solicitudes_Obras!$A$874:$AB$874;{1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1});FILTRAR([Ctrl_Administrativo_VF.xlsm]Solicitudes_Obras!$A$874:$AB$874;{1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1}));"");"")=0;"";SI.ERROR(SI([Ctrl_Administrativo_VF.xlsm]Solicitudes_Obras!$X$874="si";BUSCARX([Ctrl_Administrativo_VF.xlsm]Solicitudes_Obras!$A$874:$AB$874;FILTRAR([Ctrl_Administrativo_VF.xlsm]Solicitudes_Obras!$A$874:$AB$874;{1,1,1,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,1});FILTRAR([Ctrl_Administrativo_VF.xlsm]Solicitudes_Obras!$A$874:$AB$874;{1,1,1,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,1}));"");""))
+
+=SI(SI.ERROR(SI([Ctrl_Administrativo_VF.xlsm]Solicitudes_Obras!$X$874="si";BUSCARX([Ctrl_Administrativo_VF.xlsm]Solicitudes_Obras!$A$874:$AB$874;FILTRAR([Ctrl_Administrativo_VF.xlsm]Solicitudes_Obras!$A$874:$AB$874;{1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1});FILTRAR([Ctrl_Administrativo_VF.xlsm]Solicitudes_Obras!$A$874:$AB$874;{1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1}));"");"")=0;"";SI.ERROR(SI([Ctrl_Administrativo_VF.xlsm]Solicitudes_Obras!$X$874="si";BUSCARX([Ctrl_Administrativo_VF.xlsm]Solicitudes_Obras!$A$874:$AB$874;FILTRAR([Ctrl_Administrativo_VF.xlsm]Solicitudes_Obras!$A$874:$AB$874;{1,1,1,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,1});FILTRAR([Ctrl_Administrativo_VF.xlsm]Solicitudes_Obras!$A$874:$AB$874;{1,1,1,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,1}));"");""))
+
+//mejorada
+
+=SI(SI.ERROR(SI([Ctrl_Administrativo_VF.xlsm]Solicitudes_Obras!$X$874="si";BUSCARX([Ctrl_Administrativo_VF.xlsm]Solicitudes_Obras!$A$874:$AB$874;FILTRAR([Ctrl_Administrativo_VF.xlsm]Solicitudes_Obras!$A$874:$AB$874;{1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1});FILTRAR([Ctrl_Administrativo_VF.xlsm]Solicitudes_Obras!$A$874:$AB$874;{1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1}));"");"")=0;"";SI.ERROR(SI([Ctrl_Administrativo_VF.xlsm]Solicitudes_Obras!$X$874="si";BUSCARX([Ctrl_Administrativo_VF.xlsm]Solicitudes_Obras!$A$874:$AB$874;FILTRAR([Ctrl_Administrativo_VF.xlsm]Solicitudes_Obras!$A$874:$AB$874;{1,1,1,0,1,1,0,0,0,0,0,0,0,0,1,1,0,0,0,0,1,1,0,0,0,0,0,1});FILTRAR([Ctrl_Administrativo_VF.xlsm]Solicitudes_Obras!$A$874:$AB$874;{1,1,1,0,1,1,0,0,0,0,0,0,0,0,1,1,0,0,0,0,1,1,0,0,0,0,0,1}));"");""))
+
+//hay un desbordamiento
+
+=SI(SI.ERROR(SI([Ctrl_Administrativo_VF.xlsm]Solicitudes_Obras!$X$873="si";BUSCARX([Ctrl_Administrativo_VF.xlsm]Solicitudes_Obras!$A$873:$AB$873;FILTRAR([Ctrl_Administrativo_VF.xlsm]Solicitudes_Obras!$A$873:$AB$873;{1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1});FILTRAR([Ctrl_Administrativo_VF.xlsm]Solicitudes_Obras!$A$873:$AB$873;{1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1}));"");"")=0;"";SI.ERROR(SI([Ctrl_Administrativo_VF.xlsm]Solicitudes_Obras!$X$874="si";BUSCARX([Ctrl_Administrativo_VF.xlsm]Solicitudes_Obras!$A$873:$AB$873;FILTRAR([Ctrl_Administrativo_VF.xlsm]Solicitudes_Obras!$A$873:$AB$873;{1,1,1,0,1,1,0,0,0,0,0,0,0,0,1,1,0,0,0,0,1,1,0,0,0,0,0,1});FILTRAR([Ctrl_Administrativo_VF.xlsm]Solicitudes_Obras!$A$873:$AB$873;{1,1,1,0,1,1,0,0,0,0,0,0,0,0,1,1,0,0,0,0,1,1,0,0,0,0,0,1}));"");""))
+
+//seleccionar la celda inmovilizada 
+movilizar paneles
 
 
 
