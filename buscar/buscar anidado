@@ -1,0 +1,87 @@
+BUSCARX Doble (Anidado) – Columnas Dinámicas – Excel
+buscarx en varias columnas
+BUSCARX Devolver Múltiples Columnas - Automate Excel
+BUSCARX Devuelve Columnas Consecutivas
+
+=SI([Ctrl_Administrativo_VF.xlsm]Solicitudes_Obras!$X876="si";SI(BUSCARX([Ctrl_Administrativo_VF.xlsm]Solicitudes_Obras!$B876;[Ctrl_Administrativo_VF.xlsm]Solicitudes_Obras!$B:$B;[Ctrl_Administrativo_VF.xlsm]Solicitudes_Obras!$B:$B)="";"";BUSCARX([Ctrl_Administrativo_VF.xlsm]Solicitudes_Obras!$B876;[Ctrl_Administrativo_VF.xlsm]Solicitudes_Obras!$B:$B;[Ctrl_Administrativo_VF.xlsm]Solicitudes_Obras!$B:$B));"")
+
+filtrar no consecutivo
+
+tienen que ser incluidas todas las celdas del rago a2:d2 son 4 por lo tanto
+el include va asi =FILTRAR(A2:D2;{1,0,1,0})
+
+cuando esta marcado en azul es porque la funcion filtrar esta trabajando ahi
+
+filtrar error valor
+6. ¡#VALOR! – Tamaños de fila no uniformes
+
+//el problema pasaba en el valor buscado
+
+=BUSCARX(A6:C6;A6:C6;FILTRAR(A6:D6;{1,0,1,1}))
+
+=BUSCARX(A6:C6;A6:C6;FILTRAR(A6:C6;{1,1,1});"")
+
+=BUSCARX(A6:C6;A6:C6;FILTRAR(A6:C6;{1,1,1}))
+
+=BUSCARX(A6:C6;B6;A6:C6;FILTRAR(A6:C6;{1,0,1}))
+
+//el error de valor debiera aparecer en rojo
+
+=BUSCARX(O6;A6:C6;A6:C6;FILTRAR(A6:C6;{1,0,1}))
+
+//con algunos errores
+=BUSCARX(O6;A6:C6;A6:C6;FILTRAR(A6:C6;{1,0,1}))
+
+
+=BUSCARX(O6;O6:O7;FILTRAR(A6:C7;{1,0,1}))
+
+=BUSCARX(O6;O6:O7;FILTRAR(A6:C7;{0,0,1}))
+
+funcion filtrar si es 0 agregar un espacio
+funcion espacio excel
+
+La sintaxis de la función AGREGAR es:
+
+Función COINCIDIR
+=BUSCARX(O6;O6:O7;FILTRAR(A6:C7;{1,0,1}))
+
+//la solucion seria parsarlos de forma consecutativa aunque no son consecutivas
+//se puede usar buscarx por rango
+
+=BUSCARX(A7:C7;A7:C7;A7:C7)
+
+//agregarle una funcion si
+//o tambien puede ser agregarle una funcion filtrar anidada
+=BUSCARX(A7:C7;FILTRAR(A7:C7;{1,0,1});FILTRAR(A7:C7;{1,0,1}))
+
+//la funcion si agrega condiciones extras
+=BUSCARX(A7:C7;FILTRAR(A7:C7;{1,0,1});FILTRAR(A7:C7;{1,0,1}))
+
+//funcion si
+
+=SI(O6="si";BUSCARX(A7:C7;FILTRAR(A7:C7;{1,0,1});FILTRAR(A7:C7;{1,0,1}));"")
+
+//para el sierror apuntar a la celda del error y mostrar el resultado 
+=SI.ERROR(L9;"")
+
+=SI.ERROR(SI(O6="si";BUSCARX(A7:C7;FILTRAR(A7:C7;{1,0,1});FILTRAR(A7:C7;{1,0,1}));"");"")
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
