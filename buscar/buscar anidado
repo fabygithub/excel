@@ -67,6 +67,33 @@ Función COINCIDIR
 =SI.ERROR(SI(O6="si";BUSCARX(A7:C7;FILTRAR(A7:C7;{1,0,1});FILTRAR(A7:C7;{1,0,1}));"");"")
 
 
+// se hace una nueva filtracion
+=SI.ERROR(SI(O6="si";BUSCARX(A7:C7;FILTRAR(A7:C7;{1,0,1});FILTRAR(A7:C7;{1,0,1}));"");"")
+
+//ya se tiene la estructura ahora hay que cambiar los valores de los libros y hojas nada mas
+//ahora falta copiar la funcion y reemplazar
+//el desbordamiento se debe a que puede haber otra funcion encima y hace que colapse
+
+
+//asi va a filtrar algunas columnas
+=FILTRAR([Ctrl_Administrativo_VF.xlsm]Solicitudes_Obras!$A874:$D874;{1,1,1,1})
+
+=FILTRAR([Ctrl_Administrativo_VF.xlsm]Solicitudes_Obras!$A874:$E874;{1,1,1,1,1})
+
+=FILTRAR([Ctrl_Administrativo_VF.xlsm]Solicitudes_Obras!$A874:$K874;{1,1,1,1,1,1,1,1,1,1,1})
+
+=SI(FILTRAR([Ctrl_Administrativo_VF.xlsm]Solicitudes_Obras!$A874:$K874;{1,1,1,1,1,1,1,1,1,1,1})<>0;FILTRAR([Ctrl_Administrativo_VF.xlsm]Solicitudes_Obras!$A874:$K874;{1,1,1,1,1,1,1,1,1,1,1});"")
+
+//los que son diferentes a 0 los filtra
+//y los que son iguales los pasa a ""
+
+
+//logra buscar y filtrar
+=SI([Ctrl_Administrativo_VF.xlsm]Solicitudes_Obras!$X$874="si";SI(FILTRAR([Ctrl_Administrativo_VF.xlsm]Solicitudes_Obras!$A874:$K874;{1,1,1,1,1,1,1,1,1,1,1})<>0;FILTRAR([Ctrl_Administrativo_VF.xlsm]Solicitudes_Obras!$A874:$K874;{1,1,1,1,1,1,1,1,1,1,1});"");"")
+
+
+
+
 
 
 
