@@ -213,6 +213,21 @@ https://www.howtoexcel.org/show-zero-as-blank/
 movilizar paneles
 
 
+https://www.lawebdelprogramador.com/foros/Excel/1048767-RANGO-celdas-no-consecutivas.html
+
+excel rango no consecutivo
+podés selecionar las celdas no contiguas y luego Insertar > Nombre > Definir...
+luego usás el nombre del rango en las fórmulas
+
+seleccionar celdas no contiguas en excel
+
+
+//crear un nombre con un rango personalizado
+
+
+=[Ctrl_Administrativo_VF.xlsm]Solicitudes_Obras!$B$874;Solicitudes_Obras!$C$874;Solicitudes_Obras!$F$874;Solicitudes_Obras!$E$874;Solicitudes_Obras!$G$874;Solicitudes_Obras!$O$874;Solicitudes_Obras!$P$874;Solicitudes_Obras!$K$874
+
+
 
 
 
